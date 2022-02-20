@@ -4,6 +4,8 @@
 
 ![Tiejili](images/Tiejili.png)
 
+> 题图：[奈白不弍](https://www.pixiv.net/artworks/96389260)
+
 ## 特点
 
 ### 增补汉字和符号
@@ -19,6 +21,8 @@
 调整部分汉字和标点字形，使其更加贴合简体中文规范和习惯。
 
 ![2](images/2.png)
+
+本字体增补和调整的所有汉字请参见[《新增和调整汉字列表》](https://github.com/Buernia/Tiejili/blob/main/Documents/%E6%96%B0%E5%A2%9E%E5%92%8C%E8%B0%83%E6%95%B4%E6%B1%89%E5%AD%97%E5%88%97%E8%A1%A8.txt)。
 
 ### 排版功能
 本字体支持多种 OpenType 排版特性，可以轻松实现更加精致的排版效果。
@@ -51,7 +55,7 @@
 
 ## 致谢
 
-感谢ZERO子协助增补《现代汉语通用字表》汉字。
+感谢 [ZERO子](https://github.com/Skr-ZERO)协助增补《现代汉语通用字表》汉字。
 
 ## 联系作者
 
@@ -61,4 +65,6 @@
 
 关于本字体的意见或问题，建议在本项目的 [Issues 页面]()提出。
 
-## 
+## 其他项目
+
+* [煮豆黑体 Zhudou Sans](https://github.com/Buernia/Zhudou-Sans)
