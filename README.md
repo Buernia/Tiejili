@@ -48,6 +48,9 @@
 ## 下载
 
 * 进入本项目的 [Releases 页面](https://github.com/Buernia/Tiejili/releases)下载。
+* 进入[猫啃网](https://www.maoken.com/freefonts/15020.html)下载，同步更新。
+
+其他网站分享的版本可能不是最新版，也不能保证同步更新。
 
 ## 授权信息
 
