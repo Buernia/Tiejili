@@ -1,6 +1,6 @@
 # 铁蒺藜体 Tiejili
 
-铁蒺藜体是一款造型尖锐的美术字体，基于 FontWorks 出品的日文字体[レゲエ One](https://github.com/fontworks-fonts/Reggae) 扩充、调整字形，并添加 OpenType 特性，以满足简体中文的使用需求。
+铁蒺藜体是一款造型尖锐的美术字体，基于 Fontworks 出品的日文字体[レゲエ One](https://github.com/fontworks-fonts/Reggae) 扩充、调整字形，并添加 OpenType 特性，以满足简体中文的使用需求。
 
 ![Tiejili](images/Tiejili.png)
 
