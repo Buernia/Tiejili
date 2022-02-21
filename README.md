@@ -71,3 +71,9 @@
 ## 其他项目
 
 * [煮豆黑体 Zhudou Sans](https://github.com/Buernia/Zhudou-Sans)
+
+## 打赏支持
+
+**如果您喜欢本项目，欢迎通过微信打赏支持作者！**
+
+![donate](images/donate.jpg)
