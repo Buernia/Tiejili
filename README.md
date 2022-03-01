@@ -54,7 +54,7 @@
 
 ## 授权信息
 
-本字体以《SIL 开源字体许可证》1.1版（SIL Open Font License 1.1，OFL）授权，可以自由使用（包括商用）、传播、修改，但不能单独出售字体文件。此外，修改版本不可使用本字体的保留名称 “Tiejili” 和 “铁蒺藜”，且必须同样以《OFL》授权。详细信息请参见 https://scripts.sil.org/OFL 。
+本字体以《SIL 开源字体许可证》1.1版（SIL Open Font License 1.1，OFL）授权，可以自由使用（包括商用）、传播、修改，但不能单独出售字体文件。此外，修改版本必须同样以《OFL》授权。详细信息请参见 https://scripts.sil.org/OFL 。
 
 ## 致谢
 
