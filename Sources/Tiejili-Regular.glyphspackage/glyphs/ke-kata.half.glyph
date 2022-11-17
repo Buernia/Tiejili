@@ -1,0 +1,34 @@
+{
+glyphname = "ke-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(251,541,l),
+(161,557,l),
+(18,310,l),
+(7,320,l),
+(130,823,l),
+(275,751,l),
+(177,584,l),
+(479,663,l),
+(479,499,l),
+(292,533,l),
+(401,481,l),
+(137,-75,l),
+(125,-66,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65401;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = "Seven-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(28,760,l),
+(215,800,l),
+(267,167,l),
+(505,790,l),
+(519,790,l),
+(368,-13,l),
+(193,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(763,780,l),
+(947,780,l),
+(919,0,l),
+(791,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(543,780,l),
+(727,780,l),
+(699,0,l),
+(571,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8550;
+}

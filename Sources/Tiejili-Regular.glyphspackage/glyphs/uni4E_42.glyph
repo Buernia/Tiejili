@@ -1,0 +1,33 @@
+{
+glyphname = uni4E42;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,-74,l),
+(106,-60,l),
+(407,242,l),
+(164,761,l),
+(174,773,l),
+(481,326,l),
+(663,801,l),
+(853,738,l),
+(582,261,l),
+(898,92,l),
+(780,-77,l),
+(480,171,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 20034;
+}

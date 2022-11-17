@@ -1,0 +1,32 @@
+{
+color = (255,255,153,255);
+glyphname = uni2F0D;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(750,627,l),
+(249,676,l),
+(242,472,l),
+(114,472,l),
+(72,773,l),
+(252,773,l),
+(250,699,l),
+(930,789,l),
+(884,452,l),
+(756,452,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = (12045,20886);
+}

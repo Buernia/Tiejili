@@ -1,0 +1,38 @@
+{
+color = (153,254,255,255);
+glyphname = Icaron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(92,780,l),
+(280,780,l),
+(252,0,l),
+(120,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(8,1024,l),
+(14,1033,l),
+(187,948,l),
+(360,1033,l),
+(366,1024,l),
+(232,836,l),
+(143,836,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 372;
+}
+);
+unicode = 463;
+}

@@ -1,0 +1,35 @@
+{
+glyphname = foursuperior;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,429,l),
+(338,363,l),
+(248,363,l),
+(246,429,l),
+(17,429,l),
+(151,802,l),
+(309,788,l),
+(103,483,l),
+(242,511,l),
+(233,648,l),
+(353,648,l),
+(344,532,l),
+(413,546,l),
+(413,429,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 445;
+}
+);
+unicode = 8308;
+}

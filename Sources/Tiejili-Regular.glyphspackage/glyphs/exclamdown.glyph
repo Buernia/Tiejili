@@ -1,0 +1,33 @@
+{
+glyphname = exclamdown;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,622,l),
+(315,466,l),
+(95,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(179,412,l),
+(234,409,l),
+(312,-207,l),
+(118,-170,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 420;
+}
+);
+unicode = 161;
+}

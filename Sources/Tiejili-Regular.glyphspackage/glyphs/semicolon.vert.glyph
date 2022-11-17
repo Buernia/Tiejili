@@ -1,0 +1,36 @@
+{
+color = (153,254,255,255);
+glyphname = semicolon.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(973,797,l),
+(810,633,l),
+(730,839,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(831,358,l),
+(712,396,l),
+(818,553,l),
+(956,421,l),
+(779,201,l),
+(771,207,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65044;
+}

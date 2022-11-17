@@ -1,0 +1,27 @@
+{
+glyphname = "he-hira";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,207,l),
+(19,351,l),
+(379,596,l),
+(992,256,l),
+(881,101,l),
+(380,508,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12408;
+}

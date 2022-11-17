@@ -1,0 +1,34 @@
+{
+glyphname = "kesmall-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(671,361,l),
+(353,-56,l),
+(344,-51,l),
+(544,407,l),
+(349,430,l),
+(166,233,l),
+(157,239,l),
+(343,617,l),
+(472,563,l),
+(370,453,l),
+(819,497,l),
+(819,374,l),
+(567,404,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12534;
+}

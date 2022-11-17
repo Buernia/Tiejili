@@ -1,0 +1,19 @@
+{
+glyphname = dieresis;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = dieresiscomb;
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 168;
+}

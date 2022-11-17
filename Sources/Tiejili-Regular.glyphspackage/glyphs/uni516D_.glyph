@@ -1,0 +1,47 @@
+{
+glyphname = uni516D;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(63,618,l),
+(435,596,l),
+(413,810,l),
+(587,810,l),
+(564,589,l),
+(950,566,l),
+(950,552,l),
+(63,458,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(562,388,l),
+(574,396,l),
+(928,92,l),
+(776,-45,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(76,-29,l),
+(340,364,l),
+(482,228,l),
+(86,-41,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 20845;
+}

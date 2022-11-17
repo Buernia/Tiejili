@@ -1,0 +1,41 @@
+{
+glyphname = "voicediteration-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(681,639,l),
+(789,581,l),
+(681,521,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(560,583,l),
+(679,519,l),
+(560,453,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(257,545,l),
+(272,562,l),
+(742,234,l),
+(567,92,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12542;
+}

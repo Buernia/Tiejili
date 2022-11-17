@@ -1,0 +1,34 @@
+{
+glyphname = dblverticalbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(555,880,l),
+(648,880,l),
+(648,-120,l),
+(555,-119,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(352,880,l),
+(445,880,l),
+(445,-120,l),
+(352,-119,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8214;
+}

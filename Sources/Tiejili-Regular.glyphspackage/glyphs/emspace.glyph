@@ -1,0 +1,14 @@
+{
+glyphname = emspace;
+layers = (
+{
+layerId = master01;
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = (8195,12288);
+}

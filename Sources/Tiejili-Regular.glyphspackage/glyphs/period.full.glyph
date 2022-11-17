@@ -1,0 +1,24 @@
+{
+glyphname = period.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(54,182,l),
+(297,140,l),
+(134,-23,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65294;
+}

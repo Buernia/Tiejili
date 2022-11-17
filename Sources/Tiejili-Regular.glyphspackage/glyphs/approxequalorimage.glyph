@@ -1,0 +1,50 @@
+{
+glyphname = approxequalorimage;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(505,722,l),
+(342,558,l),
+(262,764,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(147,566,l),
+(872,495,l),
+(872,486,l),
+(147,413,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(147,340,l),
+(872,269,l),
+(872,260,l),
+(147,187,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(531,176,l),
+(774,134,l),
+(611,-29,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8786;
+}

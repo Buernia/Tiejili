@@ -1,0 +1,28 @@
+{
+glyphname = "Five-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(166,760,l),
+(353,800,l),
+(505,167,l),
+(843,790,l),
+(857,790,l),
+(606,-13,l),
+(431,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8548;
+}

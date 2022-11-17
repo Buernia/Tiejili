@@ -1,0 +1,41 @@
+{
+glyphname = divide;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(442,540,l),
+(296,392,l),
+(224,578,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(51,375,l),
+(631,305,l),
+(631,298,l),
+(51,227,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(442,133,l),
+(296,-14,l),
+(224,171,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 680;
+}
+);
+unicode = 247;
+}

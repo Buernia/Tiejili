@@ -1,0 +1,24 @@
+{
+color = (153,254,255,255);
+glyphname = fullwidthfullstop.cpct;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,483,l),
+(633,441,l),
+(470,278,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

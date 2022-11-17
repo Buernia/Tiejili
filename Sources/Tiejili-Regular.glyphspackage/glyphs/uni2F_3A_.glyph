@@ -1,0 +1,43 @@
+{
+glyphname = uni2F3A;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,476,l),
+(690,806,l),
+(812,678,l),
+(210,464,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,214,l),
+(742,576,l),
+(850,442,l),
+(200,202,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(148,-63,l),
+(816,344,l),
+(930,214,l),
+(156,-75,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = (12090,24417);
+}

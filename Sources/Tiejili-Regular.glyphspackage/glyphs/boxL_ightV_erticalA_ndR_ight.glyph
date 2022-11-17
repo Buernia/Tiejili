@@ -1,0 +1,29 @@
+{
+glyphname = boxLightVerticalAndRight;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(517,-119,l),
+(483,-119,l),
+(483,880,l),
+(517,880,l),
+(517,397,l),
+(1000,397,l),
+(1000,363,l),
+(517,363,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9500;
+}

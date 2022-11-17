@@ -1,0 +1,33 @@
+{
+glyphname = "yu-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(62,203,l),
+(575,162,l),
+(621,608,l),
+(201,531,l),
+(201,698,l),
+(624,632,l),
+(630,691,l),
+(803,674,l),
+(696,152,l),
+(954,131,l),
+(954,116,l),
+(72,36,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12518;
+}

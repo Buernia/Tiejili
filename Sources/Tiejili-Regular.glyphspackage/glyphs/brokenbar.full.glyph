@@ -1,0 +1,34 @@
+{
+glyphname = brokenbar.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(438,803,l),
+(560,803,l),
+(560,477,l),
+(438,477,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(438,303,l),
+(560,303,l),
+(560,-23,l),
+(438,-22,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65508;
+}

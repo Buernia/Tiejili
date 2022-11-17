@@ -1,0 +1,36 @@
+{
+glyphname = "ru-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,776,l),
+(658,776,l),
+(634,228,l),
+(981,390,l),
+(986,377,l),
+(520,-37,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,660,l),
+(425,595,l),
+(69,9,l),
+(54,18,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12523;
+}

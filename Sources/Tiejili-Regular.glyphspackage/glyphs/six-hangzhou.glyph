@@ -1,0 +1,31 @@
+{
+color = (153,254,255,255);
+glyphname = "six-hangzhou";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(927,384,l),
+(927,373,l),
+(134,282,l),
+(78,475,l),
+(440,437,l),
+(416,636,l),
+(591,636,l),
+(566,434,l),
+(464,434,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12326;
+}

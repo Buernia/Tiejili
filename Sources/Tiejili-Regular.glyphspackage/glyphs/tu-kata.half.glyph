@@ -1,0 +1,35 @@
+{
+glyphname = "tu-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(273,409,l),
+(179,351,l),
+(177,384,l),
+(76,293,l),
+(9,635,l),
+(21,643,l),
+(175,420,l),
+(159,711,l),
+(173,713,l),
+(287,463,l),
+(360,745,l),
+(498,667,l),
+(164,-74,l),
+(149,-68,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65410;
+}

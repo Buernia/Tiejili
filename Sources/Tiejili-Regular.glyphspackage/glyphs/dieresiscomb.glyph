@@ -1,0 +1,32 @@
+{
+glyphname = dieresiscomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(278,780,l),
+(439,752,l),
+(331,644,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(223,752,l),
+(116,644,l),
+(63,780,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 0;
+}
+);
+unicode = 776;
+}

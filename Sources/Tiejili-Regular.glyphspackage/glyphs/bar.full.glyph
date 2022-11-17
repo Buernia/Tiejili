@@ -1,0 +1,25 @@
+{
+glyphname = bar.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(453,880,l),
+(547,880,l),
+(547,-120,l),
+(453,-119,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65372;
+}

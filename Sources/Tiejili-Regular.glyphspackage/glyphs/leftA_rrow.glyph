@@ -1,0 +1,30 @@
+{
+glyphname = leftArrow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,162,l),
+(419,156,l),
+(49,375,l),
+(421,593,l),
+(425,588,l),
+(289,405,l),
+(950,462,l),
+(950,289,l),
+(288,346,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8592;
+}

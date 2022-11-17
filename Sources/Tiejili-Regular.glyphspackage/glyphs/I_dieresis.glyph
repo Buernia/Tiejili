@@ -1,0 +1,41 @@
+{
+glyphname = Idieresis;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,1002,l),
+(379,974,l),
+(271,866,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(163,974,l),
+(56,866,l),
+(3,1002,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(92,780,l),
+(280,780,l),
+(252,0,l),
+(120,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 372;
+}
+);
+unicode = 207;
+}

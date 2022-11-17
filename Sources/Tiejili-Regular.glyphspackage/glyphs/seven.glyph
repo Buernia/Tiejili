@@ -1,0 +1,27 @@
+{
+glyphname = seven;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,712,l),
+(106,630,l),
+(76,780,l),
+(639,754,l),
+(343,-13,l),
+(231,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 690;
+}
+);
+unicode = 55;
+}

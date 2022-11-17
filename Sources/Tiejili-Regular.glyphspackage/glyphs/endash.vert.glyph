@@ -1,0 +1,25 @@
+{
+glyphname = endash.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(407,594,l),
+(593,594,l),
+(552,153,l),
+(448,153,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65074;
+}

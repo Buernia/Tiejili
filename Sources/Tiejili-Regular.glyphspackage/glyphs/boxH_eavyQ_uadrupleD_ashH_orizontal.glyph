@@ -1,0 +1,70 @@
+{
+glyphname = boxHeavyQuadrupleDashHorizontal;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(835,425,l),
+(918,425,l),
+(918,335,l),
+(835,335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(668,425,l),
+(751,425,l),
+(751,335,l),
+(668,335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(501,425,l),
+(584,425,l),
+(584,335,l),
+(501,335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,425,l),
+(417,425,l),
+(417,335,l),
+(334,335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(167,425,l),
+(250,425,l),
+(250,335,l),
+(167,335,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,425,l),
+(83,425,l),
+(83,335,l),
+(0,335,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9481;
+}

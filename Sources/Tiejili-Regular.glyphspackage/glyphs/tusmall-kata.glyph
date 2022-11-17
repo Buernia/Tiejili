@@ -1,0 +1,43 @@
+{
+glyphname = "tusmall-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,578,l),
+(446,580,l),
+(574,347,l),
+(451,308,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(694,559,l),
+(822,500,l),
+(436,-55,l),
+(427,-51,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,494,l),
+(197,500,l),
+(413,313,l),
+(301,238,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12483;
+}

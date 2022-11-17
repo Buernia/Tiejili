@@ -1,0 +1,30 @@
+{
+color = (153,254,255,255);
+glyphname = Tau;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,666,l),
+(16,638,l),
+(16,790,l),
+(635,734,l),
+(635,720,l),
+(408,690,l),
+(381,0,l),
+(251,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 633;
+}
+);
+unicode = 932;
+}

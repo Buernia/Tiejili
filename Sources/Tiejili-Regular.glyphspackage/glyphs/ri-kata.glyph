@@ -1,0 +1,34 @@
+{
+glyphname = "ri-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(649,792,l),
+(833,756,l),
+(570,-74,l),
+(556,-72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(184,748,l),
+(368,748,l),
+(343,210,l),
+(227,210,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12522;
+}

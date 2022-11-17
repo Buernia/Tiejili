@@ -1,0 +1,34 @@
+{
+color = (153,254,255,255);
+glyphname = "Tse-cy";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(574,0,l),
+(136,0,l),
+(88,780,l),
+(269,780,l),
+(242,66,l),
+(537,116,l),
+(507,780,l),
+(689,780,l),
+(646,135,l),
+(745,152,l),
+(697,-129,l),
+(610,-129,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 777;
+}
+);
+unicode = 1062;
+}

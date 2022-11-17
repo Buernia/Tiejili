@@ -1,0 +1,34 @@
+{
+color = (153,254,255,255);
+glyphname = "ka-cy";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(287,234,l),
+(227,169,l),
+(218,0,l),
+(95,0,l),
+(74,558,l),
+(249,558,l),
+(234,290,l),
+(396,570,l),
+(570,540,l),
+(385,341,l),
+(599,-13,l),
+(589,-13,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 599;
+}
+);
+unicode = 1082;
+}

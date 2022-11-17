@@ -1,0 +1,29 @@
+{
+glyphname = bracketleft.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(651,835,l),
+(950,777,l),
+(950,764,l),
+(770,724,l),
+(770,34,l),
+(950,-3,l),
+(950,-17,l),
+(651,-76,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65339;
+}

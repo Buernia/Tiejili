@@ -1,0 +1,32 @@
+{
+color = (153,254,255,255);
+glyphname = "iu-bopomofo";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(905,733,l),
+(826,8,l),
+(700,8,l),
+(703,117,l),
+(170,-6,l),
+(123,741,l),
+(299,741,l),
+(297,165,l),
+(704,137,l),
+(723,733,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12585;
+}

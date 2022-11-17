@@ -1,0 +1,53 @@
+{
+color = (255,255,153,255);
+glyphname = uni2EA3;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(246,211,l),
+(259,206,l),
+(218,-77,l),
+(69,9,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(740,228,l),
+(752,234,l),
+(932,28,l),
+(780,-72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(566,217,l),
+(580,221,l),
+(724,-42,l),
+(550,-66,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(359,218,l),
+(374,223,l),
+(497,-38,l),
+(331,-72,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = (11939,28780);
+}

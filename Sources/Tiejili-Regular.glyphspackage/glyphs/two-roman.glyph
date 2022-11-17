@@ -1,0 +1,50 @@
+{
+glyphname = "two-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(770,752,l),
+(607,588,l),
+(527,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(505,752,l),
+(342,588,l),
+(262,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(544,557,l),
+(720,557,l),
+(694,0,l),
+(570,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(279,557,l),
+(455,557,l),
+(429,0,l),
+(305,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8561;
+}

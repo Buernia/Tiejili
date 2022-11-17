@@ -1,0 +1,35 @@
+{
+glyphname = Lslash;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,333,l),
+(12,304,l),
+(12,311,l),
+(103,371,l),
+(88,780,l),
+(273,780,l),
+(259,475,l),
+(388,560,l),
+(388,424,l),
+(255,382,l),
+(245,163,l),
+(604,109,l),
+(603,96,l),
+(116,2,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 634;
+}
+);
+unicode = 321;
+}

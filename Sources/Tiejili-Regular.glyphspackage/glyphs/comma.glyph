@@ -1,0 +1,27 @@
+{
+glyphname = comma;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,2,l),
+(68,40,l),
+(174,197,l),
+(312,65,l),
+(135,-155,l),
+(127,-149,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 345;
+}
+);
+unicode = 44;
+}

@@ -1,0 +1,67 @@
+{
+glyphname = "three-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(892,752,l),
+(732,588,l),
+(652,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(636,752,l),
+(476,588,l),
+(396,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(382,752,l),
+(222,588,l),
+(142,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(669,557,l),
+(842,557,l),
+(816,0,l),
+(695,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(413,557,l),
+(586,557,l),
+(560,0,l),
+(439,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(159,557,l),
+(332,557,l),
+(306,0,l),
+(185,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8562;
+}

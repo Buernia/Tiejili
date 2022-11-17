@@ -1,0 +1,45 @@
+{
+glyphname = "six-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(886,752,l),
+(726,588,l),
+(646,794,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(77,528,l),
+(248,569,l),
+(351,167,l),
+(598,567,l),
+(612,567,l),
+(432,-13,l),
+(295,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(663,557,l),
+(836,557,l),
+(810,0,l),
+(689,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8565;
+}

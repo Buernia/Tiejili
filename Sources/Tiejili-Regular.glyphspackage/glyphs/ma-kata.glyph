@@ -1,0 +1,33 @@
+{
+glyphname = "ma-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(279,372,l),
+(293,380,l),
+(482,224,l),
+(694,597,l),
+(100,513,l),
+(80,686,l),
+(710,625,l),
+(757,707,l),
+(938,611,l),
+(509,202,l),
+(645,90,l),
+(491,-26,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12510;
+}

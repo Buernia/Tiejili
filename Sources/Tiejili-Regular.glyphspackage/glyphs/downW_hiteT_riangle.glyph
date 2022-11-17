@@ -1,0 +1,32 @@
+{
+glyphname = downWhiteTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(980,696,l),
+(500,44,l),
+(20,696,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(140,635,l),
+(500,148,l),
+(860,635,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9661;
+}

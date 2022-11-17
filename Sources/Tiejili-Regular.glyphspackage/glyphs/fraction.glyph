@@ -1,0 +1,25 @@
+{
+glyphname = fraction;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,803,l),
+(414,775,l),
+(-95,-22,l),
+(-106,-22,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 262;
+}
+);
+unicode = 8260;
+}

@@ -1,0 +1,47 @@
+{
+glyphname = uni4ECB;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(56,370,l),
+(48,382,l),
+(418,826,l),
+(656,774,l),
+(546,700,l),
+(952,596,l),
+(892,398,l),
+(525,685,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(258,485,l),
+(418,441,l),
+(162,-74,l),
+(148,-68,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(600,483,l),
+(760,483,l),
+(746,-74,l),
+(634,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 20171;
+}

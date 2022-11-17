@@ -1,0 +1,25 @@
+{
+glyphname = slash;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(272,825,l),
+(411,793,l),
+(24,-58,l),
+(11,-58,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 400;
+}
+);
+unicode = 47;
+}

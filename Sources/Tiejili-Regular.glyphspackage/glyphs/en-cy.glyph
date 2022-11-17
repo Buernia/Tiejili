@@ -1,0 +1,34 @@
+{
+color = (153,254,255,255);
+glyphname = "en-cy";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(423,271,l),
+(219,215,l),
+(209,0,l),
+(86,0,l),
+(60,557,l),
+(235,557,l),
+(225,349,l),
+(422,291,l),
+(410,557,l),
+(585,557,l),
+(559,0,l),
+(436,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 659;
+}
+);
+unicode = 1085;
+}

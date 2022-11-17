@@ -1,0 +1,43 @@
+{
+glyphname = "tu-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(412,771,l),
+(428,773,l),
+(598,463,l),
+(435,411,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(758,745,l),
+(929,667,l),
+(415,-74,l),
+(403,-68,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(82,659,l),
+(96,667,l),
+(384,417,l),
+(234,317,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12484;
+}

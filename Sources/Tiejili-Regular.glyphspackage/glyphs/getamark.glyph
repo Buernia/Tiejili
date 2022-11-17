@@ -1,0 +1,34 @@
+{
+glyphname = getamark;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(101,779,l),
+(899,779,l),
+(899,481,l),
+(101,481,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(101,279,l),
+(899,279,l),
+(899,-19,l),
+(101,-18,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12307;
+}

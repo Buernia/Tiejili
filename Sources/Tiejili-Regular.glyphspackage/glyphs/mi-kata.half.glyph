@@ -1,0 +1,43 @@
+{
+glyphname = "mi-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(43,769,l),
+(468,707,l),
+(447,547,l),
+(41,755,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(46,497,l),
+(435,416,l),
+(410,258,l),
+(43,483,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(20,224,l),
+(465,116,l),
+(444,-49,l),
+(17,210,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65424;
+}

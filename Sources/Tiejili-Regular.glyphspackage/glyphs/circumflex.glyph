@@ -1,0 +1,28 @@
+{
+glyphname = circumflex;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(77,614,l),
+(71,623,l),
+(206,811,l),
+(295,811,l),
+(429,623,l),
+(423,614,l),
+(250,699,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = (710,770);
+}

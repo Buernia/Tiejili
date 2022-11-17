@@ -1,0 +1,28 @@
+{
+glyphname = less.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(194,433,l),
+(794,772,l),
+(803,761,l),
+(352,375,l),
+(803,-11,l),
+(794,-21,l),
+(194,315,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65308;
+}

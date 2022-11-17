@@ -1,0 +1,14 @@
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = master01;
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 345;
+}
+);
+unicode = 160;
+}

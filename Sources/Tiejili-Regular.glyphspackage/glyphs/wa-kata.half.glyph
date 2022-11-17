@@ -1,0 +1,32 @@
+{
+glyphname = "wa-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,573,l),
+(148,623,l),
+(145,271,l),
+(44,271,l),
+(9,754,l),
+(149,754,l),
+(148,650,l),
+(399,723,l),
+(493,597,l),
+(186,-78,l),
+(173,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65436;
+}

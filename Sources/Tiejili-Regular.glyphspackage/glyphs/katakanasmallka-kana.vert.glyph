@@ -1,0 +1,36 @@
+{
+glyphname = "katakanasmallka-kana.vert";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,156,l),
+(742,169,l),
+(749,453,l),
+(572,470,l),
+(367,38,l),
+(356,42,l),
+(480,479,l),
+(317,495,l),
+(317,505,l),
+(494,525,l),
+(545,708,l),
+(670,674,l),
+(605,538,l),
+(897,571,l),
+(808,44,l),
+(605,145,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

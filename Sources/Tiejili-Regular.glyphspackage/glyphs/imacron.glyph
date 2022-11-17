@@ -1,0 +1,35 @@
+{
+color = (153,254,255,255);
+glyphname = imacron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,557,l),
+(247,557,l),
+(221,0,l),
+(97,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-9,774,l),
+(331,717,l),
+(331,708,l),
+(-9,650,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 317;
+}
+);
+unicode = 299;
+}

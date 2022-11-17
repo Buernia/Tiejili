@@ -1,0 +1,30 @@
+{
+glyphname = Z.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,114,l),
+(600,738,l),
+(235,618,l),
+(235,780,l),
+(815,780,l),
+(343,131,l),
+(819,77,l),
+(819,63,l),
+(243,-11,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65338;
+}

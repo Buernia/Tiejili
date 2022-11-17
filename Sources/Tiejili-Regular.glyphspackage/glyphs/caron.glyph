@@ -1,0 +1,29 @@
+{
+color = (153,254,255,255);
+glyphname = caron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,806,l),
+(77,815,l),
+(250,730,l),
+(423,815,l),
+(429,806,l),
+(295,618,l),
+(206,618,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 711;
+}

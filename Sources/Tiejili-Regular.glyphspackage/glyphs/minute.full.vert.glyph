@@ -1,0 +1,24 @@
+{
+glyphname = minute.full.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(713,-105,l),
+(846,157,l),
+(974,85,l),
+(728,-116,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

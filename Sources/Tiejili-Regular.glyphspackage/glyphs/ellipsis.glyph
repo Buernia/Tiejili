@@ -1,0 +1,40 @@
+{
+glyphname = ellipsis;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(962,416,l),
+(799,252,l),
+(719,458,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(628,416,l),
+(465,252,l),
+(385,458,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(294,416,l),
+(131,252,l),
+(51,458,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8230;
+}

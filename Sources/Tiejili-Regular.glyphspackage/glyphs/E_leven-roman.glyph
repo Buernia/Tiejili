@@ -1,0 +1,42 @@
+{
+glyphname = "Eleven-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,314,l),
+(129,-13,l),
+(112,-13,l),
+(293,395,l),
+(81,750,l),
+(247,802,l),
+(369,565,l),
+(464,780,l),
+(643,780,l),
+(429,449,l),
+(661,0,l),
+(536,-9,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(691,780,l),
+(877,780,l),
+(849,0,l),
+(719,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8554;
+}

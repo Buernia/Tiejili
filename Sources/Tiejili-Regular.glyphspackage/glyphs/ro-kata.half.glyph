@@ -1,0 +1,38 @@
+{
+glyphname = "ro-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,113,l),
+(50,-5,l),
+(12,740,l),
+(154,744,l),
+(153,621,l),
+(490,711,l),
+(427,9,l),
+(326,9,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(153,596,l),
+(151,166,l),
+(329,139,l),
+(339,547,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65435;
+}

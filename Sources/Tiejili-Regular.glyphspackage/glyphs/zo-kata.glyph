@@ -1,0 +1,46 @@
+{
+glyphname = "zo-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(918,853,l),
+(1026,795,l),
+(918,735,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(709,728,l),
+(797,688,l),
+(797,797,l),
+(916,733,l),
+(818,679,l),
+(880,650,l),
+(395,-84,l),
+(383,-78,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(108,704,l),
+(122,712,l),
+(412,411,l),
+(252,319,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12478;
+}

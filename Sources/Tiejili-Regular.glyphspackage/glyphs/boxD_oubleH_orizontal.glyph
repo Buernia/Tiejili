@@ -1,0 +1,34 @@
+{
+glyphname = boxDoubleHorizontal;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,608,l),
+(1000,608,l),
+(1000,483,l),
+(0,483,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,275,l),
+(1000,275,l),
+(1000,150,l),
+(0,150,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9552;
+}

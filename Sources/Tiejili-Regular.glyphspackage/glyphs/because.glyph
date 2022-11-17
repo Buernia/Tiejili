@@ -1,0 +1,40 @@
+{
+glyphname = because;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(902,671,l),
+(739,507,l),
+(659,713,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(364,671,l),
+(201,507,l),
+(121,713,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(633,174,l),
+(470,10,l),
+(390,216,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8757;
+}

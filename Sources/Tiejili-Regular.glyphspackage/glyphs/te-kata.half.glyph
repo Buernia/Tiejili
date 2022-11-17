@@ -1,0 +1,39 @@
+{
+glyphname = "te-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,771,l),
+(429,695,l),
+(429,684,l),
+(75,607,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(193,392,l),
+(21,370,l),
+(21,532,l),
+(481,443,l),
+(481,430,l),
+(229,397,l),
+(343,363,l),
+(112,-80,l),
+(102,-74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65411;
+}

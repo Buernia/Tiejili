@@ -1,0 +1,67 @@
+{
+color = (153,254,255,255);
+glyphname = tripleexclam.ss02;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(228,784,l),
+(423,755,l),
+(150,198,l),
+(96,212,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(221,110,l),
+(67,0,l),
+(20,204,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(507,784,l),
+(702,755,l),
+(428,198,l),
+(374,212,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(499,110,l),
+(345,0,l),
+(298,204,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(785,784,l),
+(980,755,l),
+(706,198,l),
+(652,212,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(777,110,l),
+(623,0,l),
+(577,204,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

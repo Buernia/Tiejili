@@ -1,0 +1,70 @@
+{
+glyphname = boxLightTripleDashHorizontal;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(835,397,l),
+(960,397,l),
+(960,363,l),
+(835,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(668,397,l),
+(793,397,l),
+(793,363,l),
+(668,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(501,397,l),
+(626,397,l),
+(626,363,l),
+(501,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,397,l),
+(459,397,l),
+(459,363,l),
+(334,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(167,397,l),
+(292,397,l),
+(292,363,l),
+(167,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,397,l),
+(125,397,l),
+(125,363,l),
+(0,363,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9476;
+}

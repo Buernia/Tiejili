@@ -1,0 +1,29 @@
+{
+glyphname = uptack;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(147,190,l),
+(434,162,l),
+(422,703,l),
+(578,703,l),
+(553,150,l),
+(872,119,l),
+(872,110,l),
+(147,37,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8869;
+}

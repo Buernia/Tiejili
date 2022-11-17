@@ -1,0 +1,61 @@
+{
+glyphname = miriSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,800,l),
+(417,769,l),
+(404,689,l),
+(122,793,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(125,664,l),
+(385,623,l),
+(370,544,l),
+(123,657,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(77,526,l),
+(434,473,l),
+(421,390,l),
+(76,520,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(807,360,l),
+(899,342,l),
+(767,-73,l),
+(760,-72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(574,338,l),
+(666,338,l),
+(654,69,l),
+(596,69,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 13129;
+}

@@ -1,0 +1,30 @@
+{
+color = (153,254,255,255);
+glyphname = "u-cy";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,74,l),
+(27,527,l),
+(201,570,l),
+(329,164,l),
+(574,566,l),
+(588,566,l),
+(300,-229,l),
+(132,-157,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 598;
+}
+);
+unicode = 1091;
+}

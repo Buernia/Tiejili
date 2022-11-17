@@ -1,0 +1,50 @@
+{
+glyphname = "ba-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(825,753,l),
+(933,695,l),
+(825,635,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(286,713,l),
+(466,651,l),
+(48,-24,l),
+(38,-18,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(704,697,l),
+(823,633,l),
+(704,567,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(595,661,l),
+(609,669,l),
+(971,69,l),
+(787,3,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12496;
+}

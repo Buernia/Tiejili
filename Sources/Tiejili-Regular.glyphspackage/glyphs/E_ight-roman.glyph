@@ -1,0 +1,55 @@
+{
+glyphname = "Eight-roman";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(14,760,l),
+(187,800,l),
+(208,182,l),
+(402,790,l),
+(415,790,l),
+(307,-13,l),
+(136,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(816,780,l),
+(980,780,l),
+(953,0,l),
+(843,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(627,780,l),
+(791,780,l),
+(764,0,l),
+(654,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(438,780,l),
+(602,780,l),
+(575,0,l),
+(465,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8551;
+}

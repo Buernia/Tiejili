@@ -1,0 +1,44 @@
+{
+color = (153,254,255,255);
+glyphname = "three-hangzhou";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(109,761,l),
+(297,717,l),
+(284,-2,l),
+(172,-2,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(881,754,l),
+(832,-44,l),
+(720,-44,l),
+(693,803,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(406,685,l),
+(594,650,l),
+(561,74,l),
+(449,74,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12323;
+}

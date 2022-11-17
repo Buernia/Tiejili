@@ -1,0 +1,25 @@
+{
+glyphname = overlinecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,866,l),
+(500,866,l),
+(500,798,l),
+(0,798,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 0;
+}
+);
+unicode = (773,8254);
+}

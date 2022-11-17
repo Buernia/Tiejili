@@ -1,0 +1,27 @@
+{
+glyphname = logicaland;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(501,457,l),
+(136,30,l),
+(128,35,l),
+(501,746,l),
+(875,35,l),
+(867,30,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8743;
+}

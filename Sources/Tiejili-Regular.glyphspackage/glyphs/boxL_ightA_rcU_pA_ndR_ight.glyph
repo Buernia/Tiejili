@@ -1,0 +1,36 @@
+{
+glyphname = boxLightArcUpAndRight;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(906,381,o),
+(719,453,o),
+(645,526,q),
+(572,600,o),
+(499,784,o),
+(499,880,q),
+(624,880,l),
+(624,813,o),
+(677,673,o),
+(733,615,q),
+(768,580,o),
+(857,530,o),
+(955,505,o),
+(1000,505,q),
+(1000,381,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9584;
+}

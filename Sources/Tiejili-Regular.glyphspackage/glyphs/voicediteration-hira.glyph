@@ -1,0 +1,44 @@
+{
+glyphname = "voicediteration-hira";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(689,721,l),
+(797,663,l),
+(689,603,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(568,665,l),
+(687,601,l),
+(568,535,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(381,118,l),
+(548,259,l),
+(272,621,l),
+(287,638,l),
+(769,306,l),
+(738,161,l),
+(391,99,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12446;
+}

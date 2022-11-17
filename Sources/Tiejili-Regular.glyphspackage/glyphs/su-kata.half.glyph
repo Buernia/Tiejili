@@ -1,0 +1,34 @@
+{
+glyphname = "su-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,-54,l),
+(8,-44,l),
+(213,318,l),
+(298,633,l),
+(30,568,l),
+(30,740,l),
+(305,658,l),
+(324,727,l),
+(460,649,l),
+(290,240,l),
+(496,77,l),
+(395,-64,l),
+(275,219,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65405;
+}

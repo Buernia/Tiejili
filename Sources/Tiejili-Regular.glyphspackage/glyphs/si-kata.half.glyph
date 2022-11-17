@@ -1,0 +1,43 @@
+{
+glyphname = "si-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,755,l),
+(380,658,l),
+(306,512,l),
+(132,744,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(22,533,l),
+(256,454,l),
+(192,298,l),
+(15,522,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(479,371,l),
+(488,358,l),
+(114,-81,l),
+(19,76,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65404;
+}

@@ -1,0 +1,25 @@
+{
+color = (153,254,255,255);
+glyphname = dotaccent;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(331,752,l),
+(224,644,l),
+(171,780,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 729;
+}

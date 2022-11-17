@@ -1,0 +1,34 @@
+{
+color = (153,254,255,255);
+glyphname = "sh-bopomofo";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(912,768,l),
+(861,291,l),
+(729,291,l),
+(731,376,l),
+(326,322,l),
+(113,-74,l),
+(99,-68,l),
+(195,468,l),
+(731,397,l),
+(735,615,l),
+(171,694,l),
+(171,708,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12565;
+}

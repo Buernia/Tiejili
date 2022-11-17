@@ -1,0 +1,33 @@
+{
+glyphname = boxLightDiagonalCross;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,285,l),
+(206,78,l),
+(199,85,l),
+(410,375,l),
+(199,668,l),
+(206,675,l),
+(500,466,l),
+(790,675,l),
+(797,668,l),
+(590,375,l),
+(797,85,l),
+(790,78,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9587;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = uni2F02;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(289,694,l),
+(301,702,l),
+(777,206,l),
+(599,67,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = (12034,20022);
+}

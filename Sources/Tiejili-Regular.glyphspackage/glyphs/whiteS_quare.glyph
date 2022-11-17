@@ -1,0 +1,34 @@
+{
+glyphname = whiteSquare;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,812,l),
+(937,812,l),
+(937,-61,l),
+(64,-60,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,748,l),
+(128,6,l),
+(870,6,l),
+(870,748,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9633;
+}

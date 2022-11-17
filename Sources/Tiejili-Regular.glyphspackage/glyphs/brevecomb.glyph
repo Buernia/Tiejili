@@ -1,0 +1,37 @@
+{
+glyphname = brevecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(439,759,o),
+(389,678,o),
+(309,627,o),
+(251,627,q),
+(195,627,o),
+(114,677,o),
+(64,757,o),
+(52,801,q),
+(60,808,l),
+(98,777,o),
+(199,742,o),
+(251,742,q),
+(299,742,o),
+(401,778,o),
+(443,810,q),
+(450,804,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 0;
+}
+);
+unicode = 774;
+}

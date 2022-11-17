@@ -1,0 +1,33 @@
+{
+color = (153,254,255,255);
+glyphname = colon.full;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,528,l),
+(166,364,l),
+(86,570,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(329,142,l),
+(166,-22,l),
+(86,184,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65306;
+}

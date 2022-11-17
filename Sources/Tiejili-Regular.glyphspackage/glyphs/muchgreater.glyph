@@ -1,0 +1,38 @@
+{
+glyphname = muchgreater;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(389,-15,l),
+(701,375,l),
+(389,766,l),
+(398,774,l),
+(913,375,l),
+(398,-23,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(109,-6,l),
+(414,375,l),
+(109,757,l),
+(117,765,l),
+(621,375,l),
+(117,-14,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8811;
+}

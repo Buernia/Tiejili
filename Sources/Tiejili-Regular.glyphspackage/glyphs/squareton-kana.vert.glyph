@@ -1,0 +1,46 @@
+{
+glyphname = "squareton-kana.vert";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(707,376,l),
+(646,376,l),
+(634,817,l),
+(719,817,l),
+(715,663,l),
+(921,614,l),
+(884,529,l),
+(714,655,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,325,l),
+(133,330,l),
+(298,238,l),
+(222,171,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(72,26,l),
+(484,155,l),
+(487,149,l),
+(116,-57,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

@@ -1,0 +1,38 @@
+{
+glyphname = dblanglebracketleft;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(459,380,l),
+(796,845,l),
+(808,839,l),
+(608,380,l),
+(808,-79,l),
+(796,-84,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(666,380,l),
+(945,829,l),
+(957,823,l),
+(813,380,l),
+(957,-63,l),
+(945,-68,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12298;
+}

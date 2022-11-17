@@ -1,0 +1,35 @@
+{
+glyphname = "hiraganasmalli-kana.vert";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(321,596,l),
+(449,599,l),
+(456,251,l),
+(657,288,l),
+(658,282,l),
+(368,73,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(758,558,l),
+(765,562,l),
+(951,262,l),
+(815,204,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

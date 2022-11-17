@@ -1,0 +1,39 @@
+{
+color = (153,254,255,255);
+glyphname = "g-bopomofo";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(131,409,l),
+(482,27,l),
+(327,-89,l),
+(91,410,l),
+(311,810,l),
+(459,711,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(891,15,l),
+(736,-104,l),
+(454,408,l),
+(674,819,l),
+(822,718,l),
+(496,411,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12557;
+}

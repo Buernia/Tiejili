@@ -1,0 +1,46 @@
+{
+glyphname = greateroverequal;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,307,l),
+(656,535,l),
+(191,789,l),
+(195,797,l),
+(836,599,l),
+(836,474,l),
+(187,298,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,235,l),
+(852,301,l),
+(852,158,l),
+(127,226,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,62,l),
+(852,128,l),
+(852,-15,l),
+(127,53,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8807;
+}

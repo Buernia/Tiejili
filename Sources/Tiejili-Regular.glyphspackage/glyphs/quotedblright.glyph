@@ -1,0 +1,38 @@
+{
+glyphname = quotedblright;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,645,l),
+(258,683,l),
+(353,840,l),
+(478,708,l),
+(318,487,l),
+(311,493,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,645,l),
+(21,683,l),
+(116,840,l),
+(241,708,l),
+(81,487,l),
+(74,493,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 8221;
+}

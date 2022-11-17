@@ -1,0 +1,33 @@
+{
+glyphname = lowdoubleprimequotation.full.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,825,l),
+(485,825,l),
+(441,549,l),
+(265,549,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,825,l),
+(306,825,l),
+(234,549,l),
+(50,549,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

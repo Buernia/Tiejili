@@ -1,0 +1,59 @@
+{
+glyphname = "zi-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,773,l),
+(662,656,l),
+(590,498,l),
+(299,762,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(870,637,l),
+(978,579,l),
+(870,519,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(749,581,l),
+(868,517,l),
+(749,451,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(117,533,l),
+(484,466,l),
+(424,298,l),
+(114,522,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(142,86,l),
+(918,371,l),
+(923,358,l),
+(220,-81,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12472;
+}

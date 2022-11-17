@@ -1,0 +1,33 @@
+{
+glyphname = boxVerticalSingleAndLeftDouble;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(438,150,l),
+(0,150,l),
+(0,275,l),
+(438,275,l),
+(438,483,l),
+(0,483,l),
+(0,608,l),
+(438,608,l),
+(438,880,l),
+(563,880,l),
+(563,-120,l),
+(438,-119,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9569;
+}

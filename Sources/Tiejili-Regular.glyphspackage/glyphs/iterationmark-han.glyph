@@ -1,0 +1,36 @@
+{
+glyphname = "iterationmark-han";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(380,322,l),
+(561,238,l),
+(646,452,l),
+(432,490,l),
+(158,210,l),
+(146,222,l),
+(412,732,l),
+(596,658,l),
+(456,515,l),
+(740,606,l),
+(854,476,l),
+(583,228,l),
+(764,144,l),
+(646,-1,l),
+(370,310,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12293;
+}

@@ -1,0 +1,47 @@
+{
+glyphname = "esmall-hira";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,576,l),
+(644,558,l),
+(600,442,l),
+(364,571,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(523,340,l),
+(241,302,l),
+(239,422,l),
+(673,392,l),
+(270,-40,l),
+(184,50,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(578,226,l),
+(658,86,l),
+(824,152,l),
+(827,148,l),
+(640,-42,l),
+(473,172,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12359;
+}

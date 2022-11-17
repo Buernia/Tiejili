@@ -1,0 +1,34 @@
+{
+glyphname = "so-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(729,738,l),
+(900,660,l),
+(415,-74,l),
+(403,-68,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,714,l),
+(142,722,l),
+(432,421,l),
+(272,329,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12477;
+}

@@ -1,0 +1,25 @@
+{
+glyphname = "prolonged-kana.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(22,475,l),
+(475,379,l),
+(475,368,l),
+(38,272,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65392;
+}

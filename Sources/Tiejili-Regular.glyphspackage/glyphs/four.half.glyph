@@ -1,0 +1,40 @@
+{
+glyphname = four.half;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,116,l),
+(5,116,l),
+(209,802,l),
+(377,778,l),
+(298,586,l),
+(427,586,l),
+(413,251,l),
+(490,267,l),
+(490,116,l),
+(408,116,l),
+(403,0,l),
+(305,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(138,193,l),
+(296,226,l),
+(283,549,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+}

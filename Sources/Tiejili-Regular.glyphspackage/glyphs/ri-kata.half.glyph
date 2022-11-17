@@ -1,0 +1,34 @@
+{
+glyphname = "ri-kata.half";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,792,l),
+(482,756,l),
+(266,-74,l),
+(252,-72,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,748,l),
+(178,748,l),
+(158,210,l),
+(61,210,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 500;
+}
+);
+unicode = 65432;
+}

@@ -1,0 +1,24 @@
+{
+glyphname = bullet;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,355,l),
+(202,122,l),
+(88,415,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 520;
+}
+);
+unicode = 8226;
+}

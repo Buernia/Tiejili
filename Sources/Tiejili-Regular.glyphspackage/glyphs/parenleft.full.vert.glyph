@@ -1,0 +1,37 @@
+{
+glyphname = parenleft.full.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(829,0,o),
+(589,74,o),
+(500,74,q),
+(409,74,o),
+(170,0,o),
+(34,-69,q),
+(28,-59,l),
+(110,30,o),
+(282,152,o),
+(439,216,o),
+(499,216,q),
+(560,216,o),
+(717,152,o),
+(889,29,o),
+(971,-60,q),
+(965,-69,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65077;
+}

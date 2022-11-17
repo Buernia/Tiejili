@@ -1,0 +1,19 @@
+{
+glyphname = minus;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = hyphen;
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 488;
+}
+);
+unicode = 8722;
+}

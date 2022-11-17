@@ -1,0 +1,35 @@
+{
+glyphname = "yosmall-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,69,l),
+(246,-1,l),
+(231,123,l),
+(638,86,l),
+(645,278,l),
+(265,230,l),
+(265,341,l),
+(646,291,l),
+(650,433,l),
+(221,491,l),
+(221,501,l),
+(780,545,l),
+(723,-33,l),
+(634,-33,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12519;
+}

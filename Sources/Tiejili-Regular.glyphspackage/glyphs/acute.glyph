@@ -1,0 +1,18 @@
+{
+glyphname = acute;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = secondtonechinese;
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+width = 500;
+}
+);
+unicode = 180;
+}

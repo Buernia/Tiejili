@@ -1,0 +1,40 @@
+{
+color = (153,254,255,255);
+glyphname = "seven-hangzhou";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,326,l),
+(832,242,l),
+(832,232,l),
+(220,148,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(927,529,l),
+(927,518,l),
+(134,427,l),
+(78,620,l),
+(440,582,l),
+(416,781,l),
+(591,781,l),
+(566,579,l),
+(464,579,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12327;
+}

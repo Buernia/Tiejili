@@ -1,0 +1,45 @@
+{
+glyphname = "do-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(470,-65,l),
+(348,-65,l),
+(324,816,l),
+(494,816,l),
+(486,508,l),
+(898,410,l),
+(824,240,l),
+(485,489,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(805,794,l),
+(913,736,l),
+(805,676,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(684,738,l),
+(803,674,l),
+(684,608,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12489;
+}

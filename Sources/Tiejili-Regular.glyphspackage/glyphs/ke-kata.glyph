@@ -1,0 +1,34 @@
+{
+glyphname = "ke-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(728,481,l),
+(304,-75,l),
+(292,-68,l),
+(559,542,l),
+(299,573,l),
+(55,310,l),
+(43,318,l),
+(291,823,l),
+(463,751,l),
+(327,604,l),
+(925,663,l),
+(925,499,l),
+(589,539,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12465;
+}

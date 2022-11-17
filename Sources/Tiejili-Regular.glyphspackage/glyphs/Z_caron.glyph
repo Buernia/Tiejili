@@ -1,0 +1,42 @@
+{
+glyphname = Zcaron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,1023,l),
+(186,1032,l),
+(359,947,l),
+(532,1032,l),
+(538,1023,l),
+(404,835,l),
+(315,835,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(57,114,l),
+(452,738,l),
+(87,618,l),
+(87,780,l),
+(667,780,l),
+(195,131,l),
+(671,77,l),
+(671,63,l),
+(95,-11,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 708;
+}
+);
+unicode = 381;
+}

@@ -1,0 +1,29 @@
+{
+glyphname = "to-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(470,-65,l),
+(348,-65,l),
+(324,816,l),
+(494,816,l),
+(486,508,l),
+(898,410,l),
+(824,240,l),
+(485,489,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12488;
+}

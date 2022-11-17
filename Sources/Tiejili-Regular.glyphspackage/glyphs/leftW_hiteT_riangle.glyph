@@ -1,0 +1,32 @@
+{
+glyphname = leftWhiteTriangle;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(806,861,l),
+(806,-99,l),
+(154,381,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(259,381,l),
+(745,22,l),
+(745,740,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 9665;
+}

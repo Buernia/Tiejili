@@ -1,0 +1,32 @@
+{
+glyphname = "katakanasmallyu-kana.vert";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,246,l),
+(668,216,l),
+(703,550,l),
+(388,492,l),
+(388,618,l),
+(705,568,l),
+(710,612,l),
+(839,600,l),
+(759,208,l),
+(953,192,l),
+(953,181,l),
+(291,121,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

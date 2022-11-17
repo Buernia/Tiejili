@@ -1,0 +1,33 @@
+{
+glyphname = equal.full.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(545,728,l),
+(698,728,l),
+(627,3,l),
+(618,3,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(299,728,l),
+(452,728,l),
+(381,3,l),
+(372,3,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+}

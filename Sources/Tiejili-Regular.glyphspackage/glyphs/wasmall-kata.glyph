@@ -1,0 +1,32 @@
+{
+glyphname = "wasmall-kata";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(631,430,l),
+(325,469,l),
+(322,203,l),
+(229,203,l),
+(197,566,l),
+(326,566,l),
+(325,487,l),
+(717,542,l),
+(804,448,l),
+(428,-60,l),
+(421,-55,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 12526;
+}

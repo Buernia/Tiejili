@@ -1,0 +1,34 @@
+{
+color = (153,254,255,255);
+glyphname = exclam.vert;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(854,109,l),
+(734,-38,l),
+(636,147,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(707,175,l),
+(647,762,l),
+(853,784,l),
+(763,175,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 65045;
+}
