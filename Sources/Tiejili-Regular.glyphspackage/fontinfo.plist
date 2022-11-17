@@ -19,64 +19,9 @@ name = CG_1;
 );
 customParameters = (
 {
-name = openTypeGaspRangeRecords;
-value = "{\012    rangeGaspBehavior =     (\012        0,\012        1,\012        2,\012        3\012    );\012    rangeMaxPPEM = 65535;\012}";
-},
-{
-name = openTypeHeadFlags;
-value = (
-0,
-2,
-3
-);
-},
-{
-name = openTypeHeadLowestRecPPEM;
-value = 6;
-},
-{
-name = openTypeHheaCaretOffset;
-value = 0;
-},
-{
-name = openTypeHheaCaretSlopeRise;
-value = 1;
-},
-{
-name = openTypeHheaCaretSlopeRun;
-value = 0;
-},
-{
-name = licenses;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = preferredFamilyName;
-value = Tiejili;
-},
-{
-name = uniqueID;
-value = "Reggae One SC:Version 1.00";
-},
-{
-name = versionString;
-value = "Version 1.00;February 21, 2021;FontCreator 12.0.0.2525 32-bit";
-},
-{
 name = codePageRanges;
 value = (
 "936"
-);
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
 );
 },
 {
@@ -95,112 +40,9 @@ value = (
 );
 },
 {
-name = openTypeOS2Selection;
-value = (
-);
-},
-{
-name = openTypeOS2SubscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SubscriptXSize;
-value = 650;
-},
-{
-name = openTypeOS2SubscriptYOffset;
-value = 75;
-},
-{
-name = openTypeOS2SubscriptYSize;
-value = 600;
-},
-{
-name = openTypeOS2SuperscriptXOffset;
-value = 0;
-},
-{
-name = openTypeOS2SuperscriptXSize;
-value = 650;
-},
-{
-name = openTypeOS2SuperscriptYOffset;
-value = 350;
-},
-{
-name = openTypeOS2SuperscriptYSize;
-value = 600;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-6,
-7,
-9,
-31,
-32,
-33,
-35,
-36,
-37,
-38,
-39,
-42,
-43,
-44,
-45,
-46,
-47,
-48,
-49,
-50,
-54,
-55,
-57,
-59,
-61,
-62,
-65,
-68
-);
-},
-{
-name = vendorID;
-value = BUER;
-},
-{
-name = openTypeVheaCaretOffset;
-value = 0;
-},
-{
-name = openTypeVheaCaretSlopeRise;
-value = 1;
-},
-{
-name = openTypeVheaCaretSlopeRun;
-value = 0;
-},
-{
-name = openTypeVheaVertTypoAscender;
-value = 500;
-},
-{
-name = openTypeVheaVertTypoDescender;
-value = -500;
-},
-{
-name = openTypeVheaVertTypoLineGap;
-value = 1000;
 }
 );
 date = "2020-12-15 00:00:00 +0000";
@@ -933,6 +775,14 @@ name = typoLineGap;
 value = 0;
 },
 {
+name = winAscent;
+value = 1160;
+},
+{
+name = winDescent;
+value = 288;
+},
+{
 name = hheaAscender;
 value = 1160;
 },
@@ -945,28 +795,12 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1160;
-},
-{
-name = winDescent;
-value = 288;
-},
-{
 name = strikeoutPosition;
 value = 342;
 },
 {
 name = strikeoutSize;
 value = 50;
-},
-{
-name = underlineThickness;
-value = 50;
-},
-{
-name = underlinePosition;
-value = -100;
 }
 );
 id = master01;
@@ -997,12 +831,6 @@ instanceInterpolations = {
 master01 = 1;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = ReggaeOneSC;
-}
-);
 }
 );
 metrics = (
