@@ -1,6 +1,7 @@
 {
 color = (153,254,255,255);
 glyphname = "Zhe-cy";
+kernRight = K;
 layers = (
 {
 layerId = master01;

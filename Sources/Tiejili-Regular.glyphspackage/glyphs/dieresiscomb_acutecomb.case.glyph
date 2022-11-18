@@ -1,0 +1,47 @@
+{
+export = 0;
+glyphname = dieresiscomb_acutecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (300,780);
+},
+{
+name = top;
+pos = (300,1110);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(421,1049,l),
+(321,1141,l),
+(151,969,l),
+(157,960,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(266,910,l),
+(106,938,l),
+(159,802,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(482,910,l),
+(321,938,l),
+(374,802,l)
+);
+}
+);
+width = 600;
+}
+);
+}

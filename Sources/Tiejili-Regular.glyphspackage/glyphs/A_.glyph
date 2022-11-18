@@ -1,7 +1,15 @@
 {
 glyphname = A;
+kernLeft = A;
+kernRight = A;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (376,780);
+}
+);
 layerId = master01;
 shapes = (
 {

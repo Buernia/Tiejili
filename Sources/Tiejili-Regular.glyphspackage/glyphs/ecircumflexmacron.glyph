@@ -1,6 +1,6 @@
 {
 color = (153,254,255,255);
-glyphname = ecircumflexacutemacron;
+glyphname = ecircumflexmacron;
 layers = (
 {
 layerId = master01;

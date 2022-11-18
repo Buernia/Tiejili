@@ -1,0 +1,43 @@
+{
+export = 0;
+glyphname = circumflexcomb_macroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (300,780);
+},
+{
+name = top;
+pos = (300,1066);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(299,874,l),
+(472,802,l),
+(478,810,l),
+(344,969,l),
+(255,969,l),
+(120,810,l),
+(126,802,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(461,1047,l),
+(461,1056,l),
+(121,1113,l),
+(121,989,l)
+);
+}
+);
+width = 600;
+}
+);
+}

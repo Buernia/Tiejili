@@ -1,32 +1,18 @@
 {
 color = (153,254,255,255);
 glyphname = Kappa;
+kernRight = K;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(295,381,l),
-(253,342,l),
-(241,0,l),
-(115,0,l),
-(88,780,l),
-(268,780,l),
-(256,432,l),
-(511,790,l),
-(692,742,l),
-(423,498,l),
-(718,-12,l),
-(704,-11,l)
-);
+ref = K;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 730;
 }
 );

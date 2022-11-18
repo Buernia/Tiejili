@@ -1,0 +1,43 @@
+{
+export = 0;
+glyphname = circumflexcomb_gravecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (300,780);
+},
+{
+name = top;
+pos = (300,1066);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(299,874,l),
+(472,802,l),
+(478,810,l),
+(344,969,l),
+(255,969,l),
+(120,810,l),
+(126,802,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(432,969,l),
+(262,1141,l),
+(162,1049,l),
+(426,960,l)
+);
+}
+);
+width = 600;
+}
+);
+}

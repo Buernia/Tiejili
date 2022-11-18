@@ -1,0 +1,22 @@
+{
+color = (153,254,255,255);
+glyphname = Ecircumflexmacron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (76,0);
+ref = circumflexcomb_macroncomb.case;
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+width = 689;
+}
+);
+}

@@ -442,12 +442,13 @@ code = " # Glyph Composition / Decomposition
     sub m macron by mmacron;
     sub m caroncomb by mcaron;
     sub n macron by nmacron;
-    sub Ecircumflex macron by Ecircumflexacutemacron;
+    sub Ecircumflex macron by Ecircumflexmacron;
     sub Ecircumflex caroncomb by Ecircumflexcaron;
-    sub ecircumflex macron by ecircumflexacutemacron;
+    sub ecircumflex macron by ecircumflexmacron;
     sub ecircumflex caroncomb by ecircumflexcaron;
     sub emdash emdash emdash by threeemdash;
-    sub emdash emdash by twoemdash;";
+    sub emdash emdash by twoemdash;
+";
 tag = ccmp;
 },
 {
@@ -833,6 +834,54 @@ master01 = 1;
 name = Regular;
 }
 );
+kerningLTR = {
+master01 = {
+"@MMK_L_A" = {
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -80;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -80;
+};
+"@MMK_L_D" = {
+"@MMK_R_A" = -30;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -30;
+"@MMK_R_J" = -80;
+};
+"@MMK_L_J" = {
+"@MMK_R_A" = -20;
+};
+"@MMK_L_L" = {
+"@MMK_R_T" = -90;
+"@MMK_R_V" = -100;
+"@MMK_R_W" = -80;
+"@MMK_R_Y" = -80;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -10;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -40;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -70;
+"@MMK_R_J" = -70;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -80;
+"@MMK_R_J" = -60;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -50;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -40;
+};
+};
+};
 metrics = (
 {
 type = ascender;

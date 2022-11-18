@@ -6,28 +6,16 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(92,780,l),
-(280,780,l),
-(252,0,l),
-(120,0,l)
-);
+ref = I;
 },
 {
-closed = 1;
-nodes = (
-(17,993,l),
-(357,936,l),
-(357,927,l),
-(17,869,l)
-);
+pos = (-112,0);
+ref = macroncomb.case;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 372;
 }
 );

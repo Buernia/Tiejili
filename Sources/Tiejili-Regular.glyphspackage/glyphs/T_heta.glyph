@@ -1,6 +1,7 @@
 {
 color = (153,254,255,255);
 glyphname = Theta;
+kernRight = O;
 layers = (
 {
 layerId = master01;

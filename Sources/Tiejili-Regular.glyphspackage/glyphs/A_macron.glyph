@@ -1,45 +1,23 @@
 {
 color = (153,254,255,255);
 glyphname = Amacron;
+kernLeft = A;
+kernRight = A;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(514,241,l),
-(118,172,l),
-(14,-11,l),
-(-1,-11,l),
-(272,779,l),
-(430,803,l),
-(750,2,l),
-(632,-11,l)
-);
+ref = A;
 },
 {
-closed = 1;
-nodes = (
-(196,312,l),
-(502,265,l),
-(351,589,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(205,993,l),
-(545,936,l),
-(545,927,l),
-(205,869,l)
-);
+pos = (76,0);
+ref = macroncomb.case;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 752;
 }
 );

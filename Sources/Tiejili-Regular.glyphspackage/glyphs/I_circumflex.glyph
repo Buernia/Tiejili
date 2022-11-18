@@ -5,31 +5,16 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(14,834,l),
-(8,843,l),
-(143,1031,l),
-(232,1031,l),
-(366,843,l),
-(360,834,l),
-(187,919,l)
-);
+ref = I;
 },
 {
-closed = 1;
-nodes = (
-(92,780,l),
-(280,780,l),
-(252,0,l),
-(120,0,l)
-);
+pos = (-112,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 372;
 }
 );

@@ -6,27 +6,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(319,324,l),
-(64,-13,l),
-(47,-13,l),
-(271,392,l),
-(16,750,l),
-(182,802,l),
-(349,534,l),
-(485,780,l),
-(664,780,l),
-(407,440,l),
-(682,0,l),
-(557,-9,l)
-);
+ref = X;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 683;
 }
 );

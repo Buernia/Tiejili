@@ -1,0 +1,46 @@
+{
+export = 0;
+glyphname = circumflexcomb_caroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (300,780);
+},
+{
+name = top;
+pos = (300,1096);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(299,874,l),
+(472,802,l),
+(478,810,l),
+(344,969,l),
+(255,969,l),
+(120,810,l),
+(126,802,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(344,1002,l),
+(478,1150,l),
+(472,1158,l),
+(299,1091,l),
+(126,1158,l),
+(120,1150,l),
+(255,1002,l)
+);
+}
+);
+width = 600;
+}
+);
+}
