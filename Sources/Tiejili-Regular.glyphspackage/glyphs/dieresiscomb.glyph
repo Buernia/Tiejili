@@ -2,30 +2,36 @@
 glyphname = dieresiscomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (300,557);
+},
+{
+name = top;
+pos = (300,760);
+}
+);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(278,780,l),
-(439,752,l),
-(331,644,l)
+(478,751,l),
+(317,779,l),
+(370,643,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(223,752,l),
-(116,644,l),
-(63,780,l)
+(155,643,l),
+(262,751,l),
+(102,779,l)
 );
 }
 );
-userData = {
-public.verticalOrigin = "880";
-};
-vertWidth = 1000;
-width = 0;
+width = 600;
 }
 );
 unicode = 776;

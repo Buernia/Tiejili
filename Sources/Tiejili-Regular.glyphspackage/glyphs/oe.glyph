@@ -1,5 +1,6 @@
 {
 glyphname = oe;
+kernLeft = o;
 layers = (
 {
 layerId = master01;

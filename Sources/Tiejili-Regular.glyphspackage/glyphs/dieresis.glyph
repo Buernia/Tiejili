@@ -12,7 +12,7 @@ userData = {
 public.verticalOrigin = "880";
 };
 vertWidth = 1000;
-width = 500;
+width = 600;
 }
 );
 unicode = 168;

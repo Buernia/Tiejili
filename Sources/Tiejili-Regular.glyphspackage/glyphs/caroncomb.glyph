@@ -2,26 +2,32 @@
 glyphname = caroncomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (300,557);
+},
+{
+name = top;
+pos = (300,760);
+}
+);
 layerId = master01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(71,806,l),
-(77,815,l),
-(250,730,l),
-(423,815,l),
-(429,806,l),
-(295,618,l),
-(206,618,l)
+(128,811,l),
+(122,802,l),
+(257,614,l),
+(346,614,l),
+(480,802,l),
+(474,811,l),
+(301,726,l)
 );
 }
 );
-userData = {
-public.verticalOrigin = "880";
-};
-vertWidth = 1000;
-width = 0;
+width = 600;
 }
 );
 unicode = 780;

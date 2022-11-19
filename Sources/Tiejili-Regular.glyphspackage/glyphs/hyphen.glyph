@@ -1,5 +1,6 @@
 {
 glyphname = hyphen;
+kernLeft = hyphen;
 layers = (
 {
 layerId = master01;

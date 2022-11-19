@@ -5,21 +5,15 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(92,776,l),
-(432,719,l),
-(432,710,l),
-(92,652,l)
-);
+ref = macroncomb;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
 vertWidth = 1000;
-width = 500;
+width = 600;
 }
 );
-unicode = (175,713,772);
+unicode = 175;
 }

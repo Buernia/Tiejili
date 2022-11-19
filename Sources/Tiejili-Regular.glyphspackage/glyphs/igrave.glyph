@@ -5,28 +5,16 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(124,802,l),
-(294,630,l),
-(288,621,l),
-(24,710,l)
-);
+ref = idotless;
 },
 {
-closed = 1;
-nodes = (
-(71,557,l),
-(247,557,l),
-(221,0,l),
-(97,0,l)
-);
+pos = (-141,0);
+ref = gravecomb;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 317;
 }
 );

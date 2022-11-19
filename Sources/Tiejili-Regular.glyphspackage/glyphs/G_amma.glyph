@@ -7,23 +7,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(88,780,l),
-(270,780,l),
-(268,705,l),
-(610,790,l),
-(610,628,l),
-(267,663,l),
-(253,0,l),
-(125,0,l)
-);
+ref = "Ge-cy";
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
 width = 645;
 }
 );

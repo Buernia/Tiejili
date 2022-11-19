@@ -5,13 +5,13 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = secondtonechinese;
+ref = acutecomb;
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-width = 500;
+width = 600;
 }
 );
 unicode = 180;
