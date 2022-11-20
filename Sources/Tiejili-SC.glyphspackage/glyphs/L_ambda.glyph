@@ -1,0 +1,31 @@
+{
+color = (153,254,255,255);
+glyphname = Lambda;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,-11,l),
+(352,589,l),
+(633,-11,l),
+(751,2,l),
+(431,803,l),
+(273,779,l),
+(-1,-11,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 753;
+}
+);
+unicode = 923;
+}

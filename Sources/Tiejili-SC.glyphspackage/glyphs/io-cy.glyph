@@ -1,0 +1,38 @@
+{
+color = (153,254,255,255);
+glyphname = "io-cy";
+kernLeft = e;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(509,722,l),
+(372,746,l),
+(417,630,l)
+);
+},
+{
+ref = e;
+},
+{
+closed = 1;
+nodes = (
+(275,722,l),
+(139,746,l),
+(184,630,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+width = 623;
+}
+);
+metricLeft = e;
+metricRight = e;
+unicode = 1105;
+}

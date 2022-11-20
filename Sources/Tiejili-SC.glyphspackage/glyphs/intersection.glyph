@@ -1,0 +1,39 @@
+{
+glyphname = intersection;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(293,45,l),
+(293,439,ls),
+(293,543,o),
+(386,624,o),
+(500,624,cs),
+(614,624,o),
+(707,544,o),
+(707,439,cs),
+(707,45,l),
+(824,45,l),
+(824,455,ls),
+(824,626,o),
+(671,743,o),
+(500,743,cs),
+(311,743,o),
+(176,623,o),
+(176,453,cs),
+(176,45,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 1000;
+}
+);
+unicode = 8745;
+}

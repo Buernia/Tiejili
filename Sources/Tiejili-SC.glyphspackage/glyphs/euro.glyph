@@ -1,0 +1,34 @@
+{
+glyphname = euro;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(492,555,l),
+(-32,477,l),
+(-32,470,l),
+(492,398,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(492,335,l),
+(-32,257,l),
+(-32,250,l),
+(492,178,l)
+);
+},
+{
+ref = C;
+}
+);
+vertWidth = 1000;
+width = 737;
+}
+);
+unicode = 8364;
+}

@@ -1,0 +1,32 @@
+{
+color = (153,254,255,255);
+glyphname = "Pe-cy";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,0,l),
+(265,665,l),
+(493,624,l),
+(522,0,l),
+(623,0,l),
+(668,790,l),
+(267,697,l),
+(270,780,l),
+(88,780,l),
+(133,0,l)
+);
+}
+);
+userData = {
+public.verticalOrigin = "880";
+};
+vertWidth = 1000;
+width = 756;
+}
+);
+unicode = 1055;
+}
