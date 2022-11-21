@@ -13,7 +13,18 @@ six
 seven
 eight
 nine
-";
+zero.half
+one.half
+two.half
+three.half
+four.half
+five.half
+six.half
+seven.half
+eight.half
+nine.half
+zero.zero
+zero.zero.half";
 name = CG_1;
 }
 );
@@ -55,11 +66,7 @@ languagesystem hani dflt;
 name = Languagesystems;
 },
 {
-code = "lookup SingleSubstitution2 { # GSUB lookup type SingleSubstitution
-    sub colon by colon.time;
-} SingleSubstitution2;
-
-lookup SingleAdjustment1 { # GPOS lookup type SingleAdjustment
+code = "lookup SingleAdjustment1 {
     pos minute -500;
     pos second -500;
     pos angleRight -500;
@@ -103,7 +110,7 @@ lookup SingleAdjustment1 { # GPOS lookup type SingleAdjustment
     pos fullwidthsemicolon.cpct <-250 0 -500 0>;
 } SingleAdjustment1;
 
-lookup SingleAdjustment3 { # GPOS lookup type SingleAdjustment
+lookup SingleAdjustment3 {
     pos comma-han.vert <0 0 0 -500>;
     pos period-han.vert <0 0 0 -500>;
     pos parenright.full.vert <0 0 0 -500>;
@@ -137,7 +144,7 @@ lookup SingleAdjustment3 { # GPOS lookup type SingleAdjustment
     pos fullwidthfullstop.cpct <0 250 0 -500>;
 } SingleAdjustment3;
 
-lookup SingleSubstitution1 { # GSUB lookup type SingleSubstitution
+lookup SingleSubstitution1 {
     sub comma-han by comma-han.cpct;
     sub period-han by ideographicfullstop.cpct;
     sub comma.full.vert by fullwidthcomma.cpct;
@@ -154,379 +161,11 @@ lookup SingleSubstitution1 { # GSUB lookup type SingleSubstitution
     sub semicolon.full by fullwidthsemicolon.cpct;
     sub question.full by fullwidthquestionmark.cpct;
 } SingleSubstitution1;
-
-#
-# Feature definitions
-#
-
-feature ss01 { # Stylistic Set 1
-    featureNames {
-        name \"Centered CJK Punctuation\"; # English - United States
-        name 3 1 2052 \"居中中日韩标点\"; # Chinese - People's Republic of China
-    };
-    lookup SingleSubstitution1;
-} ss01;
-
-feature ss02 { # Stylistic Set 2
-    featureNames {
-        name \"Tilted punctuation\"; # English - United States
-        name 3 1 2052 \"倾斜标点符号\"; # Chinese - People's Republic of China
-    };
-    sub exclamdouble by doubleexclam.ss02;
-    sub exclam.vert by exclam.ss02;
-    sub exclam.full by exclam.ss02;
-    sub fullwidthexclamationmark.cpct by exclam.ss02;
-    sub tripleexclam by tripleexclam.ss02;
-} ss02;
-
-feature ss03 { # Stylistic Set 3
-    featureNames {
-        name \"Fullwidth quotes\"; # English - United States
-        name 3 1 2052 \"全角引号\"; # Chinese - People's Republic of China
-    };
-    sub quoteleft by quoteleft.full;
-    sub quoteright by quoteright.full;
-    sub quotedblleft by quotedblleft.full;
-    sub quotedblright by quotedblright.full;
-} ss03;
 ";
 name = Prefix;
 }
 );
 features = (
-{
-code = "sub quoteleft by quoteleft.full;
-sub quoteright by quoteright.full;
-sub quotedblleft by quotedblleft.full;
-sub quotedblright by quotedblright.full;
-sub exclamdouble by doubleexclam.ss02;
-sub comma-han by comma-han.cpct;
-sub period-han by ideographicfullstop.cpct;
-sub i-bopomofo by i-bopo.hist;
-sub comma.full.vert by fullwidthcomma.cpct;
-sub comma-han.vert by comma-han.cpct;
-sub period-han.vert by ideographicfullstop.cpct;
-sub colon.vert by fullwidthcolon.cpct;
-sub semicolon.vert by fullwidthsemicolon.cpct;
-sub question.vert by fullwidthquestionmark.cpct;
-sub comma.full by fullwidthcomma.cpct;
-sub period.full by fullwidthfullstop.cpct;
-sub colon.full by fullwidthcolon.cpct;
-sub semicolon.full by fullwidthsemicolon.cpct;
-sub question.full by fullwidthquestionmark.cpct;
-sub period.full.vert by fullwidthfullstop.cpct;
-sub tripleexclam by tripleexclam.ss02;
-sub i-bopo.hist by i-bopomofo;
-
-sub space from [enspace emspace];
-sub zero from [zero.full zero.half zero.zero zero.zero.full zero.zero.half];
-sub one from [one.full one.half];
-sub two from [two.full two.half];
-sub three from [three.full three.half];
-sub four from [four.full four.half];
-sub five from [five.full five.half];
-sub six from [six.full six.half];
-sub seven from [seven.full seven.half];
-sub eight from [eight.full eight.half];
-sub nine from [nine.full nine.half];
-sub exclam.vert from [fullwidthexclamationmark.cpct exclam.ss02 doubleexclam.ss02 tripleexclam.ss02];
-sub exclam.full from [fullwidthexclamationmark.cpct exclam.ss02 doubleexclam.ss02 tripleexclam.ss02];
-";
-tag = aalt;
-},
-{
-code = "sub one slash two by onehalf;
-sub one slash four by onequarter;
-sub three slash four by threequarters;
-";
-tag = frac;
-},
-{
-code = "sub F A X by facsimile;
-sub G B by GBSquare;
-sub H P by HPSquare;
-sub H z by HzSquare;
-sub J I S by jis;
-sub K B by KBSquare;
-sub K K by KKSquare;
-sub M B by MBSquare;
-sub N o by numero;
-sub T E L by T_E_L;
-sub T e l by telephone;
-sub T B by T_B;
-sub c a l by calSquare;
-sub c m two by cmsquaredSquare;
-sub c m three by cmcubedSquare;
-sub c c by ccSquare;
-sub c m by cmSquare;
-sub d B by dbSquare;
-sub d l by dlSquare;
-sub i n by inSquare;
-sub k c a l by kcalSquare;
-sub k m two by kmsquaredSquare;
-sub k m three by kmcubedSquare;
-sub k g by kgSquare;
-sub k l by klSquare;
-sub k m by kmSquare;
-sub m i n by m_i_n;
-sub m m two by mmsquaredSquare;
-sub m m three by mmcubedSquare;
-sub m two by msquaredSquare;
-sub m three by mcubedSquare;
-sub m b by mbSquare;
-sub m g by mgSquare;
-sub m l by mlSquare;
-sub m m by mmSquare;
-sub m s by msSquare;
-sub n s by nsSquare;
-sub p s by psSquare;
-sub s e c by s_e_c;
-sub micro s by musSquare;
-sub mu s.full by musSquare;
-sub uni2F24 uni6B63 by taisyouEra;
-sub a-kata pa-kata prolonged-kana to-kata by apaatoSquare;
-sub a-kata prolonged-kana ru-kata by aaruSquare;
-sub i-kata n-kata ti-kata by intiSquare;
-sub ka-kata ro-kata ri-kata prolonged-kana by karoriiSquare;
-sub ki-kata ro-kata me-kata prolonged-kana to-kata ru-kata by kiromeetoruSquare;
-sub ki-kata ro-kata gu-kata ra-kata mu-kata by kiroguramuSquare;
-sub ki-kata ro-kata by kiroSquare;
-sub gu-kata ra-kata mu-kata by guramuSquare;
-sub ko-kata prolonged-kana po-kata by koopoSquare;
-sub se-kata n-kata ti-kata by sentiSquare;
-sub se-kata n-kata to-kata by sentoSquare;
-sub to-kata n-kata by tonSquare;
-sub do-kata ru-kata by doruSquare;
-sub ha-kata i-kata tu-kata by haituSquare;
-sub pa-kata prolonged-kana se-kata n-kata to-kata by paasentoSquare;
-sub bi-kata ru-kata by biruSquare;
-sub hu-kata ismall-kata prolonged-kana to-kata by huiitoSquare;
-sub he-kata ku-kata ta-kata prolonged-kana ru-kata by hekutaaruSquare;
-sub he-kata ru-kata tu-kata by herutuSquare;
-sub pe-kata prolonged-kana zi-kata by peeziSquare;
-sub ho-kata prolonged-kana n-kata by hoonSquare;
-sub ma-kata n-kata si-kata yosmall-kata n-kata by mansyonSquare;
-sub mi-kata ri-kata ba-kata prolonged-kana ru-kata by miribaaruSquare;
-sub mi-kata ri-kata by miriSquare;
-sub me-kata prolonged-kana to-kata ru-kata by meetoruSquare;
-sub ya-kata prolonged-kana do-kata by yaadoSquare;
-sub ri-kata tusmall-kata to-kata ru-kata by rittoruSquare;
-sub wa-kata tusmall-kata to-kata by wattoSquare;
-sub uni4EE4 uni548C by reiwaEra;
-sub uni5E73 uni6210 by heiseiEra;
-sub uni660E uni6CBB by meiziEra;
-sub uni662D uni548C by syouwaEra;
-sub uni6709 uni9650 uni4F1A uni793E by yuugen;
-sub uni682A uni5F0F uni4F1A uni793E by corporationSquare;
-sub uni8CA1 uni56E3 uni6CD5 uni2F08 by zaidan;
-sub F.full A.full X.full by facsimile;
-sub G.full B.full by GBSquare;
-sub H.full P.full by HPSquare;
-sub H.full z.full by HzSquare;
-sub J.full I.full S.full by jis;
-sub K.full B.full by KBSquare;
-sub K.full K.full by KKSquare;
-sub M.full B.full by MBSquare;
-sub N.full o.full by numero;
-sub T.full E.full L.full by T_E_L;
-sub T.full e.full l.full by telephone;
-sub T.full B.full by T_B;
-sub c.full a.full l.full by calSquare;
-sub c.full m.full two.full by cmsquaredSquare;
-sub c.full m.full three.full by cmcubedSquare;
-sub c.full c.full by ccSquare;
-sub c.full m.full by cmSquare;
-sub d.full B.full by dbSquare;
-sub d.full l.full by dlSquare;
-sub i.full n.full by inSquare;
-sub k.full c.full a.full l.full by kcalSquare;
-sub k.full m.full two.full by kmsquaredSquare;
-sub k.full m.full three.full by kmcubedSquare;
-sub k.full g.full by kgSquare;
-sub k.full l.full by klSquare;
-sub k.full m.full by kmSquare;
-sub m.full i.full n.full by m_i_n;
-sub m.full m.full two.full by mmsquaredSquare;
-sub m.full m.full three.full by mmcubedSquare;
-sub m.full two.full by msquaredSquare;
-sub m.full three.full by mcubedSquare;
-sub m.full b.full by mbSquare;
-sub m.full g.full by mgSquare;
-sub m.full l.full by mlSquare;
-sub m.full m.full by mmSquare;
-sub m.full s.full by msSquare;
-sub n.full s.full by nsSquare;
-sub p.full s.full by psSquare;
-sub s.full e.full c.full by s_e_c;
-sub exclam.full exclam.full exclam.full exclam.full by quadrupleexclam;
-sub exclam.full exclam.full exclam.full by tripleexclam;
-sub exclam.full exclam.full by exclamdouble;
-sub exclam.full question.full by exclamationquestion;
-sub question.full question.full question.full by triplequestion;
-sub question.full exclam.full by questionexclamation;
-sub question.full question.full by doublequestion;
-sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by quadrupleexclam;
-sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by tripleexclam;
-sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by exclamdouble;
-sub fullwidthexclamationmark.cpct fullwidthquestionmark.cpct by exclamationquestion;
-sub fullwidthquestionmark.cpct fullwidthquestionmark.cpct fullwidthquestionmark.cpct by triplequestion;
-sub fullwidthquestionmark.cpct fullwidthexclamationmark.cpct by questionexclamation;
-sub fullwidthquestionmark.cpct fullwidthquestionmark.cpct by doublequestion;
-";
-tag = dlig;
-},
-{
-code = "sub f i by fi;
-sub f l by fl;
-";
-tag = liga;
-},
-{
-code = "lookup SingleAdjustment1;
-";
-tag = palt;
-},
-{
-code = "lookup SingleAdjustment1;
-";
-tag = halt;
-},
-{
-code = "lookup SingleAdjustment3;
-";
-tag = vpal;
-},
-{
-code = "lookup SingleAdjustment3;
-";
-tag = vhal;
-},
-{
-code = "sub M grave by Mgrave;
-sub M macron by Mmacron;
-sub M caroncomb by Mcaron;
-sub N macron by Nmacron;
-sub m grave by mgrave;
-sub m macron by mmacron;
-sub m caroncomb by mcaron;
-sub n macron by nmacron;
-sub Ecircumflex macron by Ecircumflexmacron;
-sub Ecircumflex caroncomb by Ecircumflexcaron;
-sub ecircumflex macron by ecircumflexmacron;
-sub ecircumflex caroncomb by ecircumflexcaron;
-sub emdash emdash emdash by threeemdash;
-sub emdash emdash by twoemdash;
-";
-tag = ccmp;
-},
-{
-code = "lookup SingleSubstitution1;
-";
-tag = cpct;
-},
-{
-code = "sub @CG_1 colon' lookup SingleSubstitution2 @CG_1;
-";
-tag = calt;
-},
-{
-code = "sub space by enspace;
-sub zero by zero.half;
-sub one by one.half;
-sub two by two.half;
-sub three by three.half;
-sub four by four.half;
-sub five by five.half;
-sub six by six.half;
-sub seven by seven.half;
-sub eight by eight.half;
-sub nine by nine.half;
-sub emspace by enspace;
-sub zero.full by zero.half;
-sub one.full by one.half;
-sub two.full by two.half;
-sub three.full by three.half;
-sub four.full by four.half;
-sub five.full by five.half;
-sub six.full by six.half;
-sub seven.full by seven.half;
-sub eight.full by eight.half;
-sub nine.full by nine.half;
-";
-tag = hwid;
-},
-{
-code = "sub space by emspace;
-sub zero by zero.full;
-sub one by one.full;
-sub two by two.full;
-sub three by three.full;
-sub four by four.full;
-sub five by five.full;
-sub six by six.full;
-sub seven by seven.full;
-sub eight by eight.full;
-sub nine by nine.full;
-sub enspace by emspace;
-sub quoteleft by quoteleft.full;
-sub quoteright by quoteright.full;
-sub quotedblleft by quotedblleft.full;
-sub quotedblright by quotedblright.full;
-sub zero.half by zero.full;
-sub one.half by one.full;
-sub two.half by two.full;
-sub three.half by three.full;
-sub four.half by four.full;
-sub five.half by five.full;
-sub six.half by six.full;
-sub seven.half by seven.full;
-sub eight.half by eight.full;
-sub nine.half by nine.full;
-";
-tag = fwid;
-},
-{
-code = "sub enspace by space;
-sub emspace by space;
-sub zero.full by zero;
-sub one.full by one;
-sub two.full by two;
-sub three.full by three;
-sub four.full by four;
-sub five.full by five;
-sub six.full by six;
-sub seven.full by seven;
-sub eight.full by eight;
-sub nine.full by nine;
-sub zero.half by zero;
-sub one.half by one;
-sub two.half by two;
-sub three.half by three;
-sub four.half by four;
-sub five.half by five;
-sub six.half by six;
-sub seven.half by seven;
-sub eight.half by eight;
-sub nine.half by nine;
-sub quoteleft.full by quoteleft;
-sub quoteright.full by quoteright;
-sub quotedblleft.full by quotedblleft;
-sub quotedblright.full by quotedblright;
-";
-tag = pwid;
-},
-{
-code = "sub i-bopomofo by i-bopo.hist;
-";
-tag = hist;
-},
-{
-code = "sub zero by zero.zero;
-sub zero.half by zero.zero.half;
-sub zero.full by zero.zero.full;
-";
-tag = zero;
-},
 {
 code = "sub hyphentwo by endash.vert;
 sub dblverticalbar by doubleverticalline.vert;
@@ -726,6 +365,398 @@ sub zaidan by zaidan.vert;
 sub i-bopo.hist by i-bopomofo;
 ";
 tag = vert;
+},
+{
+code = "sub M grave by Mgrave;
+sub M macron by Mmacron;
+sub M caroncomb by Mcaron;
+sub N macron by Nmacron;
+sub m grave by mgrave;
+sub m macron by mmacron;
+sub m caroncomb by mcaron;
+sub n macron by nmacron;
+sub Ecircumflex macron by Ecircumflexmacron;
+sub Ecircumflex caroncomb by Ecircumflexcaron;
+sub ecircumflex macron by ecircumflexmacron;
+sub ecircumflex caroncomb by ecircumflexcaron;
+sub emdash emdash emdash by threeemdash;
+sub emdash emdash by twoemdash;
+";
+tag = ccmp;
+},
+{
+code = "sub one slash two by onehalf;
+sub one slash four by onequarter;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+code = "featureNames {
+name \"Centered CJK Punctuation\"; # English - United States
+name 3 1 2052 \"居中中日韩标点\"; # Chinese - People's Republic of China
+};
+lookup SingleSubstitution1;";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss01;
+},
+{
+code = "featureNames {
+name \"Tilted punctuation\"; # English - United States
+name 3 1 2052 \"倾斜标点符号\"; # Chinese - People's Republic of China
+};
+sub exclamdouble by doubleexclam.ss02;
+sub exclam.vert by exclam.ss02;
+sub exclam.full by exclam.ss02;
+sub fullwidthexclamationmark.cpct by exclam.ss02;
+sub tripleexclam by tripleexclam.ss02;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss02;
+},
+{
+code = "featureNames {
+name \"Fullwidth quotes\"; # English - United States
+name 3 1 2052 \"全角引号\"; # Chinese - People's Republic of China
+};
+sub quoteleft by quoteleft.full;
+sub quoteright by quoteright.full;
+sub quotedblleft by quotedblleft.full;
+sub quotedblright by quotedblright.full;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss03;
+},
+{
+code = "sub zero by zero.zero;
+sub zero.half by zero.zero.half;
+sub zero.full by zero.zero.full;
+";
+tag = zero;
+},
+{
+code = "sub space by enspace;
+sub zero by zero.half;
+sub one by one.half;
+sub two by two.half;
+sub three by three.half;
+sub four by four.half;
+sub five by five.half;
+sub six by six.half;
+sub seven by seven.half;
+sub eight by eight.half;
+sub nine by nine.half;
+sub emspace by enspace;
+sub zero.full by zero.half;
+sub one.full by one.half;
+sub two.full by two.half;
+sub three.full by three.half;
+sub four.full by four.half;
+sub five.full by five.half;
+sub six.full by six.half;
+sub seven.full by seven.half;
+sub eight.full by eight.half;
+sub nine.full by nine.half;
+";
+tag = hwid;
+},
+{
+code = "sub space by emspace;
+sub zero by zero.full;
+sub one by one.full;
+sub two by two.full;
+sub three by three.full;
+sub four by four.full;
+sub five by five.full;
+sub six by six.full;
+sub seven by seven.full;
+sub eight by eight.full;
+sub nine by nine.full;
+sub enspace by emspace;
+sub quoteleft by quoteleft.full;
+sub quoteright by quoteright.full;
+sub quotedblleft by quotedblleft.full;
+sub quotedblright by quotedblright.full;
+sub zero.half by zero.full;
+sub one.half by one.full;
+sub two.half by two.full;
+sub three.half by three.full;
+sub four.half by four.full;
+sub five.half by five.full;
+sub six.half by six.full;
+sub seven.half by seven.full;
+sub eight.half by eight.full;
+sub nine.half by nine.full;
+";
+tag = fwid;
+},
+{
+code = "sub enspace by space;
+sub emspace by space;
+sub zero.full by zero;
+sub one.full by one;
+sub two.full by two;
+sub three.full by three;
+sub four.full by four;
+sub five.full by five;
+sub six.full by six;
+sub seven.full by seven;
+sub eight.full by eight;
+sub nine.full by nine;
+sub zero.half by zero;
+sub one.half by one;
+sub two.half by two;
+sub three.half by three;
+sub four.half by four;
+sub five.half by five;
+sub six.half by six;
+sub seven.half by seven;
+sub eight.half by eight;
+sub nine.half by nine;
+sub quoteleft.full by quoteleft;
+sub quoteright.full by quoteright;
+sub quotedblleft.full by quotedblleft;
+sub quotedblright.full by quotedblright;
+";
+tag = pwid;
+},
+{
+code = "sub i-bopomofo by i-bopo.hist;
+";
+tag = hist;
+},
+{
+code = "lookup SingleSubstitution1;
+";
+tag = cpct;
+},
+{
+code = "sub @CG_1 colon' @CG_1 by colon.time;
+";
+tag = calt;
+},
+{
+code = "sub f i by fi;
+sub f l by fl;
+";
+tag = liga;
+},
+{
+code = "sub F A X by facsimile;
+sub G B by GBSquare;
+sub H P by HPSquare;
+sub H z by HzSquare;
+sub J I S by jis;
+sub K B by KBSquare;
+sub K K by KKSquare;
+sub M B by MBSquare;
+sub N o by numero;
+sub T E L by T_E_L;
+sub T e l by telephone;
+sub T B by T_B;
+sub c a l by calSquare;
+sub c m two by cmsquaredSquare;
+sub c m three by cmcubedSquare;
+sub c c by ccSquare;
+sub c m by cmSquare;
+sub d B by dbSquare;
+sub d l by dlSquare;
+sub i n by inSquare;
+sub k c a l by kcalSquare;
+sub k m two by kmsquaredSquare;
+sub k m three by kmcubedSquare;
+sub k g by kgSquare;
+sub k l by klSquare;
+sub k m by kmSquare;
+sub m i n by m_i_n;
+sub m m two by mmsquaredSquare;
+sub m m three by mmcubedSquare;
+sub m two by msquaredSquare;
+sub m three by mcubedSquare;
+sub m b by mbSquare;
+sub m g by mgSquare;
+sub m l by mlSquare;
+sub m m by mmSquare;
+sub m s by msSquare;
+sub n s by nsSquare;
+sub p s by psSquare;
+sub s e c by s_e_c;
+sub micro s by musSquare;
+sub mu s.full by musSquare;
+sub uni2F24 uni6B63 by taisyouEra;
+sub a-kata pa-kata prolonged-kana to-kata by apaatoSquare;
+sub a-kata prolonged-kana ru-kata by aaruSquare;
+sub i-kata n-kata ti-kata by intiSquare;
+sub ka-kata ro-kata ri-kata prolonged-kana by karoriiSquare;
+sub ki-kata ro-kata me-kata prolonged-kana to-kata ru-kata by kiromeetoruSquare;
+sub ki-kata ro-kata gu-kata ra-kata mu-kata by kiroguramuSquare;
+sub ki-kata ro-kata by kiroSquare;
+sub gu-kata ra-kata mu-kata by guramuSquare;
+sub ko-kata prolonged-kana po-kata by koopoSquare;
+sub se-kata n-kata ti-kata by sentiSquare;
+sub se-kata n-kata to-kata by sentoSquare;
+sub to-kata n-kata by tonSquare;
+sub do-kata ru-kata by doruSquare;
+sub ha-kata i-kata tu-kata by haituSquare;
+sub pa-kata prolonged-kana se-kata n-kata to-kata by paasentoSquare;
+sub bi-kata ru-kata by biruSquare;
+sub hu-kata ismall-kata prolonged-kana to-kata by huiitoSquare;
+sub he-kata ku-kata ta-kata prolonged-kana ru-kata by hekutaaruSquare;
+sub he-kata ru-kata tu-kata by herutuSquare;
+sub pe-kata prolonged-kana zi-kata by peeziSquare;
+sub ho-kata prolonged-kana n-kata by hoonSquare;
+sub ma-kata n-kata si-kata yosmall-kata n-kata by mansyonSquare;
+sub mi-kata ri-kata ba-kata prolonged-kana ru-kata by miribaaruSquare;
+sub mi-kata ri-kata by miriSquare;
+sub me-kata prolonged-kana to-kata ru-kata by meetoruSquare;
+sub ya-kata prolonged-kana do-kata by yaadoSquare;
+sub ri-kata tusmall-kata to-kata ru-kata by rittoruSquare;
+sub wa-kata tusmall-kata to-kata by wattoSquare;
+sub uni4EE4 uni548C by reiwaEra;
+sub uni5E73 uni6210 by heiseiEra;
+sub uni660E uni6CBB by meiziEra;
+sub uni662D uni548C by syouwaEra;
+sub uni6709 uni9650 uni4F1A uni793E by yuugen;
+sub uni682A uni5F0F uni4F1A uni793E by corporationSquare;
+sub uni8CA1 uni56E3 uni6CD5 uni2F08 by zaidan;
+sub F.full A.full X.full by facsimile;
+sub G.full B.full by GBSquare;
+sub H.full P.full by HPSquare;
+sub H.full z.full by HzSquare;
+sub J.full I.full S.full by jis;
+sub K.full B.full by KBSquare;
+sub K.full K.full by KKSquare;
+sub M.full B.full by MBSquare;
+sub N.full o.full by numero;
+sub T.full E.full L.full by T_E_L;
+sub T.full e.full l.full by telephone;
+sub T.full B.full by T_B;
+sub c.full a.full l.full by calSquare;
+sub c.full m.full two.full by cmsquaredSquare;
+sub c.full m.full three.full by cmcubedSquare;
+sub c.full c.full by ccSquare;
+sub c.full m.full by cmSquare;
+sub d.full B.full by dbSquare;
+sub d.full l.full by dlSquare;
+sub i.full n.full by inSquare;
+sub k.full c.full a.full l.full by kcalSquare;
+sub k.full m.full two.full by kmsquaredSquare;
+sub k.full m.full three.full by kmcubedSquare;
+sub k.full g.full by kgSquare;
+sub k.full l.full by klSquare;
+sub k.full m.full by kmSquare;
+sub m.full i.full n.full by m_i_n;
+sub m.full m.full two.full by mmsquaredSquare;
+sub m.full m.full three.full by mmcubedSquare;
+sub m.full two.full by msquaredSquare;
+sub m.full three.full by mcubedSquare;
+sub m.full b.full by mbSquare;
+sub m.full g.full by mgSquare;
+sub m.full l.full by mlSquare;
+sub m.full m.full by mmSquare;
+sub m.full s.full by msSquare;
+sub n.full s.full by nsSquare;
+sub p.full s.full by psSquare;
+sub s.full e.full c.full by s_e_c;
+sub exclam.full exclam.full exclam.full exclam.full by quadrupleexclam;
+sub exclam.full exclam.full exclam.full by tripleexclam;
+sub exclam.full exclam.full by exclamdouble;
+sub exclam.full question.full by exclamationquestion;
+sub question.full question.full question.full by triplequestion;
+sub question.full exclam.full by questionexclamation;
+sub question.full question.full by doublequestion;
+sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by quadrupleexclam;
+sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by tripleexclam;
+sub fullwidthexclamationmark.cpct fullwidthexclamationmark.cpct by exclamdouble;
+sub fullwidthexclamationmark.cpct fullwidthquestionmark.cpct by exclamationquestion;
+sub fullwidthquestionmark.cpct fullwidthquestionmark.cpct fullwidthquestionmark.cpct by triplequestion;
+sub fullwidthquestionmark.cpct fullwidthexclamationmark.cpct by questionexclamation;
+sub fullwidthquestionmark.cpct fullwidthquestionmark.cpct by doublequestion;
+sub exclam.vert exclam.vert exclam.vert exclam.vert by quadrupleexclam;
+sub exclam.vert exclam.vert exclam.vert by tripleexclam;
+sub exclam.vert exclam.vert by exclamdouble;
+sub exclam.vert question.vert by exclamationquestion;
+sub question.vert question.vert question.vert by triplequestion;
+sub question.vert exclam.vert by questionexclamation;
+sub question.vert question.vert by doublequestion;
+sub exclam.ss02 exclam.ss02 by doubleexclam.ss02;
+sub exclam.ss02 exclam.ss02 exclam.ss02 by tripleexclam.ss02;";
+tag = dlig;
+},
+{
+code = "sub quoteleft by quoteleft.full;
+sub quoteright by quoteright.full;
+sub quotedblleft by quotedblleft.full;
+sub quotedblright by quotedblright.full;
+sub exclamdouble by doubleexclam.ss02;
+sub comma-han by comma-han.cpct;
+sub period-han by ideographicfullstop.cpct;
+sub i-bopomofo by i-bopo.hist;
+sub comma.full.vert by fullwidthcomma.cpct;
+sub comma-han.vert by comma-han.cpct;
+sub period-han.vert by ideographicfullstop.cpct;
+sub colon.vert by fullwidthcolon.cpct;
+sub semicolon.vert by fullwidthsemicolon.cpct;
+sub question.vert by fullwidthquestionmark.cpct;
+sub comma.full by fullwidthcomma.cpct;
+sub period.full by fullwidthfullstop.cpct;
+sub colon.full by fullwidthcolon.cpct;
+sub semicolon.full by fullwidthsemicolon.cpct;
+sub question.full by fullwidthquestionmark.cpct;
+sub period.full.vert by fullwidthfullstop.cpct;
+sub tripleexclam by tripleexclam.ss02;
+sub i-bopo.hist by i-bopomofo;
+
+sub space from [enspace emspace];
+sub zero from [zero.full zero.half zero.zero zero.zero.full zero.zero.half];
+sub one from [one.full one.half];
+sub two from [two.full two.half];
+sub three from [three.full three.half];
+sub four from [four.full four.half];
+sub five from [five.full five.half];
+sub six from [six.full six.half];
+sub seven from [seven.full seven.half];
+sub eight from [eight.full eight.half];
+sub nine from [nine.full nine.half];
+sub exclam.vert from [fullwidthexclamationmark.cpct exclam.ss02 doubleexclam.ss02 tripleexclam.ss02];
+sub exclam.full from [fullwidthexclamationmark.cpct exclam.ss02 doubleexclam.ss02 tripleexclam.ss02];
+";
+tag = aalt;
+},
+{
+code = "lookup SingleAdjustment1;
+";
+tag = palt;
+},
+{
+code = "lookup SingleAdjustment1;
+";
+tag = halt;
+},
+{
+code = "lookup SingleAdjustment3;
+";
+tag = vpal;
+},
+{
+code = "lookup SingleAdjustment3;
+";
+tag = vhal;
 }
 );
 fontMaster = (
