@@ -5,6 +5,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
+pos = (-51,0);
 ref = circumflexcomb;
 }
 );
@@ -12,7 +13,7 @@ userData = {
 public.verticalOrigin = "880";
 };
 vertWidth = 1000;
-width = 600;
+width = 500;
 }
 );
 unicode = 710;

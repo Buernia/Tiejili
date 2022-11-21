@@ -5,6 +5,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
+pos = (-44,0);
 ref = tildecomb;
 }
 );
@@ -12,7 +13,7 @@ userData = {
 public.verticalOrigin = "880";
 };
 vertWidth = 1000;
-width = 600;
+width = 500;
 }
 );
 unicode = 732;

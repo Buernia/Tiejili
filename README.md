@@ -2,7 +2,7 @@
 
 铁蒺藜体是一款造型尖锐的美术字体，基于 Fontworks 出品的日文字体[レゲエ One](https://github.com/fontworks-fonts/Reggae) 扩充、调整字形，并添加 OpenType 特性，以满足简体中文的使用需求。
 
-![Tiejili](images/Tiejili.png)
+![Tiejili](documentation/images/Tiejili.png)
 
 > 题图：[奈白不弍](https://www.pixiv.net/artworks/96389260)
 
@@ -14,13 +14,13 @@
 
 本字体还增补了汉语拼音字母，新设计了注音符号和苏州码子。
 
-![1](images/1.png)
+![1](documentation/images/1.png)
 
 ### 调整字形
 
 调整部分汉字和标点字形，使其更加贴合简体中文规范和习惯。
 
-![2](images/2.png)
+![2](documentation/images/2.png)
 
 本字体增补和调整的所有汉字请参见[《新增和调整汉字列表》](https://github.com/Buernia/Tiejili/blob/main/Documents/%E6%96%B0%E5%A2%9E%E5%92%8C%E8%B0%83%E6%95%B4%E6%B1%89%E5%AD%97%E5%88%97%E8%A1%A8.txt)。
 
@@ -31,19 +31,19 @@
 
   本字体包含居中标点（`cpct`、`ss01`）、倾斜标点（`ss02`）及全角引号（`ss03`）3种可选变体。
   
-  ![3](images/3.png)
+  ![3](documentation/images/3.png)
   
 * **标点合字**
 
   本字体支持标点合字，可以将连续的叹号和问号合成一个汉字宽度的合字。通过自选连字（`dlig`，又译 “自由连字”）开启。
 
-  ![4](images/4.png)
+  ![4](documentation/images/4.png)
 
 * **标点压缩**
 
   本字体支持替代宽度（`halt`、`vhal`、`palt`、`vpal`）特性，可以压缩标点符号宽度。
 
-  ![5](images/5.png)
+  ![5](documentation/images/5.png)
 
 ## 下载
 
@@ -76,4 +76,4 @@
 
 **如果您喜欢本项目，欢迎通过微信打赏支持作者！**
 
-![donate](images/donate.jpg)
+![donate](documentation/images/donate.jpg)

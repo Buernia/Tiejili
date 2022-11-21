@@ -9,7 +9,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (76,0);
+pos = (125,0);
 ref = circumflexcomb_macroncomb.case;
 }
 );

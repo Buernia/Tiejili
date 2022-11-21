@@ -12,7 +12,7 @@ ref = acute;
 userData = {
 public.verticalOrigin = "880";
 };
-width = 600;
+width = 500;
 }
 );
 unicode = 714;

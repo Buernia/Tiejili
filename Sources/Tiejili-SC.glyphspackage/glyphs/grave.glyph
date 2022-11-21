@@ -5,14 +5,20 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = gravecomb;
+closed = 1;
+nodes = (
+(388,623,l),
+(400,645,l),
+(192,837,l),
+(106,710,l)
+);
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
 vertWidth = 1000;
-width = 600;
+width = 500;
 }
 );
 unicode = 96;

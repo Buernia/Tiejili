@@ -5,13 +5,19 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = acutecomb;
+closed = 1;
+nodes = (
+(394,710,l),
+(308,837,l),
+(100,645,l),
+(112,623,l)
+);
 }
 );
 userData = {
 public.verticalOrigin = "880";
 };
-width = 600;
+width = 500;
 }
 );
 unicode = 180;
