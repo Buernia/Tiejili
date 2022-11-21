@@ -32,31 +32,50 @@ customParameters = (
 {
 name = codePageRanges;
 value = (
+"1252",
 "936"
 );
 },
 {
-name = panose;
+name = unicodeRanges;
 value = (
 0,
-0,
-8,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
-name = fsType;
-value = (
+1,
+2,
+3,
+5,
+6,
+9,
+31,
+32,
+33,
+35,
+36,
+37,
+38,
+39,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+54,
+55,
+57,
+59,
+61,
+62,
+65,
+68
 );
 }
 );
-date = "2022-11-20 07:17:51 +0000";
+date = "2022-11-21 17:52:28 +0000";
 familyName = "Tiejili SC";
 featurePrefixes = (
 {
@@ -1038,6 +1057,10 @@ values = (
 {
 language = ZHS;
 value = "铁蒺藜体 简";
+},
+{
+language = ENG;
+value = "Tiejili SC";
 }
 );
 }
