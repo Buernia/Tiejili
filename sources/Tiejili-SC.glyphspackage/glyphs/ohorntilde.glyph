@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = ohorntilde;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (75,0);
+ref = tildecomb;
+}
+);
+width = 691;
+}
+);
+unicode = 7905;
+}

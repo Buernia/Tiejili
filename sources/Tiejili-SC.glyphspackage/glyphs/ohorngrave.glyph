@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = ohorngrave;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (67,0);
+ref = gravecomb;
+}
+);
+width = 691;
+}
+);
+unicode = 7901;
+}

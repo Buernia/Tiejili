@@ -11,11 +11,7 @@ ref = e;
 },
 {
 pos = (67,0);
-ref = circumflexcomb;
-},
-{
-pos = (67,213);
-ref = gravecomb;
+ref = circumflexcomb_gravecomb;
 }
 );
 userData = {

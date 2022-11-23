@@ -2,6 +2,12 @@
 glyphname = G;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (409,780);
+}
+);
 layerId = master01;
 shapes = (
 {

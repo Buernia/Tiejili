@@ -1,0 +1,20 @@
+{
+export = 0;
+glyphname = brevecomb_hookabovecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = brevecomb;
+},
+{
+alignment = -1;
+pos = (-1,175);
+ref = hookabovecomb;
+}
+);
+width = 500;
+}
+);
+}

@@ -1,0 +1,35 @@
+{
+glyphname = horncomb;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (149,557);
+},
+{
+name = topright;
+pos = (341,725);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,548,o),
+(355,597,o),
+(341,725,c),
+(213,711,l),
+(234,634,o),
+(196,557,o),
+(149,557,c),
+(145,535,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 795;
+}

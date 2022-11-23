@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = uhorndotbelow;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (77,0);
+ref = dotbelowcomb;
+}
+);
+width = 748;
+}
+);
+unicode = 7921;
+}

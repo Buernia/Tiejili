@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = ohornacute;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (79,0);
+ref = acutecomb;
+}
+);
+width = 691;
+}
+);
+unicode = 7899;
+}

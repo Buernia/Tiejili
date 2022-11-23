@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = Zacute;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (98,0);
+ref = acutecomb.case;
+}
+);
+width = 698;
+}
+);
+unicode = 377;
+}

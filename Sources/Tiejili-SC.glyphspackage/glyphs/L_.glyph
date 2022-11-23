@@ -3,6 +3,12 @@ glyphname = L;
 kernRight = L;
 layers = (
 {
+anchors = (
+{
+name = topright;
+pos = (342,780);
+}
+);
 layerId = master01;
 shapes = (
 {

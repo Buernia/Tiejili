@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = uogonek;
+kernLeft = u;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (330,0);
+ref = ogonekcomb;
+}
+);
+width = 673;
+}
+);
+unicode = 371;
+}

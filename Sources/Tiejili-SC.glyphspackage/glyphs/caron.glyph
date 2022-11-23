@@ -6,7 +6,6 @@ layers = (
 layerId = master01;
 shapes = (
 {
-pos = (-51,0);
 ref = caroncomb;
 }
 );

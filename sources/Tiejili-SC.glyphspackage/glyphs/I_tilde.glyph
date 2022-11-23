@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = Itilde;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-65,0);
+ref = tildecomb.case;
+}
+);
+width = 372;
+}
+);
+unicode = 296;
+}
