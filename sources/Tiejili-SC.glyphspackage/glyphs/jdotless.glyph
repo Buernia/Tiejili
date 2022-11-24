@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = jdotless;
+kernLeft = j;
 layers = (
 {
 layerId = master01;

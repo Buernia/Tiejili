@@ -18,5 +18,6 @@ width = 434;
 }
 );
 metricLeft = l;
+metricRight = dcaron;
 unicode = 318;
 }

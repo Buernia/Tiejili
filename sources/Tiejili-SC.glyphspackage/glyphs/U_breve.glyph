@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = Ubreve;
+kernRight = U;
 layers = (
 {
 layerId = master01;

@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = ohorngrave;
+kernLeft = o;
 layers = (
 {
 layerId = master01;
@@ -13,7 +14,7 @@ pos = (67,0);
 ref = gravecomb;
 }
 );
-width = 691;
+width = 692;
 }
 );
 unicode = 7901;

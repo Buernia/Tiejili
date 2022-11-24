@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = uhorntilde;
+kernLeft = u;
 layers = (
 {
 layerId = master01;

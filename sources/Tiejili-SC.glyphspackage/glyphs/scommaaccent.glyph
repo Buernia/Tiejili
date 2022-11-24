@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = scommaaccent;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (18,0);
+ref = commaaccentcomb;
+}
+);
+width = 577;
+}
+);
+unicode = 537;
+}
