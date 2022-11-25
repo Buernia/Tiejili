@@ -1,5 +1,5 @@
 {
-.appVersion = "3146";
+.appVersion = "3148";
 .formatVersion = 3;
 classes = (
 {
@@ -79,8 +79,18 @@ date = "2022-11-21 17:52:28 +0000";
 familyName = "Tiejili SC";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt; 
-languagesystem hani dflt;
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 },
@@ -185,6 +195,41 @@ name = Prefix;
 }
 );
 features = (
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT.case;
+} locl_latn_2;
+";
+tag = locl;
+},
 {
 code = "sub hyphentwo by endash.vert;
 sub dblverticalbar by doubleverticalline.vert;

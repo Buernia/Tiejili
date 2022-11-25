@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = abrevetilde;
+kernLeft = a;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (77,0);
+ref = brevecomb_tildecomb;
+}
+);
+width = 613;
+}
+);
+unicode = 7861;
+}

@@ -1,0 +1,17 @@
+{
+color = 10;
+glyphname = Dcroat;
+kernRight = D;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Eth;
+}
+);
+width = 805;
+}
+);
+unicode = 272;
+}

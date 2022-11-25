@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = gdotaccent;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = g;
+},
+{
+pos = (94,0);
+ref = dotaccentcomb;
+}
+);
+width = 659;
+}
+);
+unicode = 289;
+}

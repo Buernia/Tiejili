@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = "Kje-cy";
+kernRight = K;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "Ka-cy";
+},
+{
+pos = (127,-53);
+ref = acutecomb.case;
+}
+);
+width = 730;
+}
+);
+unicode = 1036;
+}

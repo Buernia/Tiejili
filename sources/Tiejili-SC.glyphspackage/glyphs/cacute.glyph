@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = cacute;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (64,0);
+ref = acutecomb;
+}
+);
+width = 582;
+}
+);
+unicode = 263;
+}

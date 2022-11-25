@@ -11,11 +11,7 @@ ref = e;
 },
 {
 pos = (67,0);
-ref = circumflexcomb;
-},
-{
-pos = (79,213);
-ref = acutecomb;
+ref = circumflexcomb_acutecomb;
 }
 );
 userData = {

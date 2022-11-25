@@ -1,0 +1,22 @@
+{
+color = 10;
+glyphname = Yhookabove;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (82,223);
+ref = hookabovecomb;
+}
+);
+width = 648;
+}
+);
+unicode = 7926;
+}

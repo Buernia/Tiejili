@@ -1,0 +1,19 @@
+{
+export = 0;
+glyphname = brevecomb_tildecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = brevecomb;
+},
+{
+pos = (-7,203);
+ref = tildecomb;
+}
+);
+width = 500;
+}
+);
+}

@@ -1,0 +1,22 @@
+{
+color = 10;
+glyphname = Abrevegrave;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (125,0);
+ref = brevecomb_gravecomb.case;
+}
+);
+width = 752;
+}
+);
+unicode = 7856;
+}

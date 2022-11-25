@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = Uring;
+kernRight = U;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (143,0);
+ref = ringcomb.case;
+}
+);
+width = 809;
+}
+);
+unicode = 366;
+}

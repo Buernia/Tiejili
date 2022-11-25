@@ -1,0 +1,31 @@
+{
+color = 10;
+glyphname = Uhorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (409,0);
+},
+{
+name = top;
+pos = (409,780);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = U;
+},
+{
+pos = (540,151);
+ref = horncomb;
+}
+);
+width = 873;
+}
+);
+unicode = 431;
+}

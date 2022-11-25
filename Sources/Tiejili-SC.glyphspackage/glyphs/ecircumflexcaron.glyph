@@ -7,23 +7,11 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(362,818,l),
-(496,1006,l),
-(490,1015,l),
-(317,930,l),
-(144,1015,l),
-(138,1006,l),
-(273,818,l)
-);
-},
-{
 ref = e;
 },
 {
-pos = (16,-32);
-ref = circumflexcomb;
+pos = (67,0);
+ref = circumflexcomb_caroncomb;
 }
 );
 userData = {

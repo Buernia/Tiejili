@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = uring;
+kernLeft = u;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (106,0);
+ref = ringcomb;
+}
+);
+width = 673;
+}
+);
+unicode = 367;
+}
