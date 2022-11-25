@@ -25,10 +25,9 @@ pos = (311,-22);
 ref = horncomb;
 }
 );
-width = 692;
+width = 662;
 }
 );
 metricLeft = o;
-metricRight = o;
 unicode = 417;
 }
