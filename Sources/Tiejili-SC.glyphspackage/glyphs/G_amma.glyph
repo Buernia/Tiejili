@@ -1,7 +1,7 @@
 {
 color = (153,254,255,255);
 glyphname = Gamma;
-kernRight = F;
+kernRight = T;
 layers = (
 {
 layerId = master01;

@@ -1,9 +1,10 @@
 {
-color = (153,254,255,255);
+color = 10;
 glyphname = omicron;
+kernLeft = o;
 layers = (
 {
-layerId = master01;
+background = {
 shapes = (
 {
 closed = 1;
@@ -52,11 +53,17 @@ nodes = (
 );
 }
 );
+};
+layerId = master01;
+shapes = (
+{
+ref = o;
+}
+);
 userData = {
 public.verticalOrigin = "880";
 };
-vertWidth = 1000;
-width = 682;
+width = 662;
 }
 );
 unicode = 959;

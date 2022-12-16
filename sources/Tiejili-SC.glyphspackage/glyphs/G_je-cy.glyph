@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = "Gje-cy";
-kernRight = F;
+kernRight = T;
 layers = (
 {
 layerId = master01;

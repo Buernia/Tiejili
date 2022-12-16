@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = "Geupturn-cy";
+kernRight = T;
 layers = (
 {
 layerId = master01;
