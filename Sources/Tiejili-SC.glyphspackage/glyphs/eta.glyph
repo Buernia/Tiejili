@@ -3,6 +3,12 @@ color = 10;
 glyphname = eta;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (357,557);
+}
+);
 background = {
 shapes = (
 {

@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = psi;
+kernLeft = u;
 layers = (
 {
 background = {

@@ -4,6 +4,12 @@ glyphname = omicron;
 kernLeft = o;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (331,557);
+}
+);
 background = {
 shapes = (
 {

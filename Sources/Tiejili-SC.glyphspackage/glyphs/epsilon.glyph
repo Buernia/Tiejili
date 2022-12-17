@@ -1,8 +1,15 @@
 {
 color = 10;
 glyphname = epsilon;
+kernLeft = e;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (326,557);
+}
+);
 background = {
 shapes = (
 {

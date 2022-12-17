@@ -3,6 +3,16 @@ color = (153,254,255,255);
 glyphname = Iota;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (188,780);
+},
+{
+name = topleft;
+pos = (33,780);
+}
+);
 layerId = master01;
 shapes = (
 {

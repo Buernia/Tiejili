@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = mu;
+kernLeft = u;
 layers = (
 {
 background = {

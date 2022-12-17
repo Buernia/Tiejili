@@ -1,0 +1,22 @@
+{
+color = 10;
+glyphname = Upsilondieresis;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Upsilon;
+},
+{
+pos = (159,0);
+ref = dieresiscomb.case;
+}
+);
+width = 827;
+}
+);
+unicode = 939;
+}

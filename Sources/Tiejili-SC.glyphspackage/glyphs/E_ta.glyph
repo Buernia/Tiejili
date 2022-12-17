@@ -3,6 +3,12 @@ color = (153,254,255,255);
 glyphname = Eta;
 layers = (
 {
+anchors = (
+{
+name = topleft;
+pos = (29,780);
+}
+);
 layerId = master01;
 shapes = (
 {

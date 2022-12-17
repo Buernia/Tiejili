@@ -1,8 +1,15 @@
 {
 color = 10;
 glyphname = omega;
+kernLeft = o;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (461,557);
+}
+);
 background = {
 shapes = (
 {

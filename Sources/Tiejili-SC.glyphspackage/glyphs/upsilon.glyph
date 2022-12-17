@@ -1,8 +1,15 @@
 {
 color = 10;
 glyphname = upsilon;
+kernLeft = u;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (321,557);
+}
+);
 background = {
 shapes = (
 {

@@ -5,6 +5,16 @@ kernLeft = Y;
 kernRight = Y;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (416,780);
+},
+{
+name = topleft;
+pos = (24,780);
+}
+);
 layerId = master01;
 shapes = (
 {

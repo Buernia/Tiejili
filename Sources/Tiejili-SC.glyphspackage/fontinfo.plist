@@ -906,6 +906,7 @@ master01 = {
 "@MMK_R_Y" = -80;
 "@MMK_R_f" = -20;
 "@MMK_R_t" = -50;
+"@MMK_R_tonos" = -50;
 "@MMK_R_v" = -70;
 "@MMK_R_w" = -50;
 "@MMK_R_y" = -70;
@@ -951,6 +952,7 @@ master01 = {
 "@MMK_R_e" = -60;
 "@MMK_R_o" = -60;
 "@MMK_R_period" = -140;
+"@MMK_R_tonos" = 50;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -70;
@@ -996,6 +998,7 @@ master01 = {
 "@MMK_R_hyphen" = -20;
 "@MMK_R_o" = -70;
 "@MMK_R_period" = -50;
+"@MMK_R_tonos" = 50;
 };
 "@MMK_L_y" = {
 "@MMK_R_comma" = -50;
