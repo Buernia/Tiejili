@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = Ccaron;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (158,0);
+ref = caroncomb.case;
+}
+);
+width = 737;
+}
+);
+unicode = 268;
+}

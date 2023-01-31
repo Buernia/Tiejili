@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = Ihookabove;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-62,223);
+ref = hookabovecomb;
+}
+);
+width = 372;
+}
+);
+unicode = 7880;
+}

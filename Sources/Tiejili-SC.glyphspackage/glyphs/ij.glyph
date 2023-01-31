@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = ij;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (317,0);
+ref = j;
+}
+);
+width = 640;
+}
+);
+unicode = 307;
+}

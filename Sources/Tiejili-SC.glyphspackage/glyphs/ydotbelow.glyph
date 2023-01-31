@@ -1,0 +1,22 @@
+{
+color = 10;
+glyphname = ydotbelow;
+kernLeft = y;
+kernRight = y;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (208,0);
+ref = dotbelowcomb;
+}
+);
+width = 598;
+}
+);
+unicode = 7925;
+}

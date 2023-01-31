@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = alphatonos;
+kernLeft = o;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = alpha;
+},
+{
+pos = (105,0);
+ref = tonos;
+}
+);
+width = 727;
+}
+);
+unicode = 940;
+}

@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = lacute;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-100,0);
+ref = acutecomb.case;
+}
+);
+width = 321;
+}
+);
+unicode = 314;
+}

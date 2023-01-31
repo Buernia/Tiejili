@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = etatonos;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (105,0);
+ref = tonos;
+}
+);
+width = 686;
+}
+);
+unicode = 942;
+}

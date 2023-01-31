@@ -1,0 +1,25 @@
+{
+color = 10;
+glyphname = acircumflexacute;
+kernLeft = a;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (77,0);
+ref = circumflexcomb;
+},
+{
+pos = (89,213);
+ref = acutecomb;
+}
+);
+width = 613;
+}
+);
+unicode = 7845;
+}

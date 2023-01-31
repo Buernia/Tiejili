@@ -1,0 +1,21 @@
+{
+color = 10;
+glyphname = Ubreve;
+kernRight = U;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (160,223);
+ref = brevecomb;
+}
+);
+width = 809;
+}
+);
+unicode = 364;
+}

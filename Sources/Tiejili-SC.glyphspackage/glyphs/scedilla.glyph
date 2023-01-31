@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = scedilla;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = s;
+},
+{
+pos = (51,0);
+ref = cedillacomb;
+}
+);
+width = 577;
+}
+);
+unicode = 351;
+}

@@ -1,0 +1,19 @@
+{
+export = 0;
+glyphname = circumflexcomb_tildecomb;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = circumflexcomb;
+},
+{
+pos = (8,213);
+ref = tildecomb;
+}
+);
+width = 500;
+}
+);
+}

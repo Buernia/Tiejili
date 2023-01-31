@@ -1,0 +1,20 @@
+{
+color = 10;
+glyphname = Eogonek;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (337,49);
+ref = ogonekcomb;
+}
+);
+width = 689;
+}
+);
+unicode = 280;
+}

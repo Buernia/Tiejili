@@ -1,0 +1,39 @@
+{
+color = 10;
+glyphname = "ushort-cy";
+kernLeft = y;
+kernRight = y;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "u-cy";
+},
+{
+closed = 1;
+nodes = (
+(364,606,o),
+(419,662,o),
+(450,731,c),
+(443,735,l),
+(400,698,o),
+(344,676,o),
+(314,676,cs),
+(282,676,o),
+(226,698,o),
+(183,735,c),
+(176,731,l),
+(207,662,o),
+(261,606,o),
+(312,606,cs)
+);
+}
+);
+width = 598;
+}
+);
+metricLeft = "u-cy";
+metricRight = "u-cy";
+unicode = 1118;
+}

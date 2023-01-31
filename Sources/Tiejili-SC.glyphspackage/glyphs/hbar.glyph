@@ -1,0 +1,25 @@
+{
+color = 10;
+glyphname = hbar;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = h;
+},
+{
+closed = 1;
+nodes = (
+(427,664,l),
+(427,677,l),
+(9,720,l),
+(9,612,l)
+);
+}
+);
+width = 673;
+}
+);
+unicode = 295;
+}
